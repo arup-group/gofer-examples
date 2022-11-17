@@ -1,55 +1,142 @@
-# C-phi analysis validation
+# Central St Giles: Flexible cantilever retaining wall validation
+
+![csg-photo](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-hufton-crow.png)
+
+<sub>Central St Giles, Bloomsbury, &copy; Hufton Crow</sub>
 
 ## Summary
 
-We tested Gofer’s c-phi analysis feature by modelling a cutting into multiple horizontal soil strata. This example looks at two key areas: **Factor of Safety (FoS)** and potential **failure surfaces**, to determine how our results compared with other studies.
+Completed in 2010, Arup provided engineering consultancy services for the redevelopment of Central St Giles, London, as a mixed-use multi-storey development. **Oasys Frew** was used to design the flexible cantilever retaining walls forming the new basement.
 
-Our example model is taken from [Chowdhury and Xu, 2005](https://www.sciencedirect.com/science/article/abs/pii/095183209400063T), which was also referecned in a joint Arup-Oasys study [(_Ground Engineering, 2014_)](https://www.researchgate.net/publication/279176042_Slope_stability_analysis_-_limit_equilibrium_or_the_finite_element_method) comparing **limit equilibrium** (LE) and **finite element** (FE) methods using Oasys Slope (LE) and Oasys Safe (FE).
+For this example, we have compared Gofer and Frew, using the Central St Giles design models.
 
-The model consists of three soil layers with parameters and geometries as shown below:
+![3d-model](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-arup-3d-model.png)
 
-_Table 1: Material parameters_
+<sub><i>Artist's impression of the site, Robert Powell &copy; Arup</i></sub>
 
-| Material      | Young's modulus (Pa)      | Poisson's ratio | Cohesion (kPa) | Friction angle $(\degree)$ | Density (kN/m<sup>3</sup>) |
-| ------------- | ------------------------- | --------------- | -------------- | -------------------------- | -------------------------- |
-| Soil 1 (Sand) | 1 $\times$ 10<sup>5</sup> | 0.3             | 3              | 30                         | 21                         |
-| Soil 2 (Clay) | 1 $\times$ 10<sup>5</sup> | 0.3             | 22             | 11                         | 22                         |
-| Soil 3 (Clay) | 1 $\times$ 10<sup>5</sup> | 0.3             | 25             | 20                         | 22                         |
+### The site
 
-## What is it?
+Central St Giles is located east of Tottenham Court Road, south of New Oxford Street, close to Tottenham Court Road underground station. The site was previously occupied by a 1950s office building, and Victorian and Georgian residential buildings.
 
-C-phi analysis is a method commonly used in geotechnical **finite element analyses** (FEA). Soil strength is gradually reduced until failure is reached. An implied factor of safety is calculated as the inverse of the reduction ratio at failure.
+#### Site obstructions
 
-The likely failure surface (or surfaces) can be visualised by inspecting soil results, aiding understanding of how the soil body might fail.
+- **Historic** basements and foundations
 
-The major advantage of c-phi analysis is that it finds the failure surface(s), rather than testing predefined potential failure surfaces, as is the case with limit equilibrium.
+- Major **utility statutory services** (including water mains, 3-phase cables, and a basement-level electrical substation)
 
-_Geometries and fixities as modelled in Gofer_
+- A section overlapping with the **Crossrail** route
 
-![soil](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/soil-graph.png)
+![map](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/site-boundary.png)
 
-## C-phi in Gofer
+<sub><i>Proposed site boundary, adjacent to the Crossrail tunnel exclusion zone.</i></sub>
 
-You will find Gofer's c-phi analysis feature in the **Configure stages** mode, available as a calculation type within **Stage settings**.
+## Model inputs
 
-Results are presented in the mesh and as a graph, plotting maximum displacement as strength is reduced.
+### Ground conditions
 
-_A c-phi reduction graph available in Gofer_
+A 2006 ground investigation\* revealed a downward geological sequence comprising: **Made Ground, River Terrace Deposits, London Clay, Lambeth Group, Thanet Sands** and **Chalk**.
 
-![c-phi-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/c-phi-graph.png)
+**_Table 1: Generic ground model across the site_**
 
-### How it compares: FoS
+| Stratum    | Elevation |
+| ---------- | --------- |
+| [-]        | [m_OD]    |
+| MG         | 24.0      |
+| RTD        | 20.0      |
+| LC         | 17.0      |
+| LMG        | -3.5      |
+| Model base | -21.0     |
 
-_Table 2: Factor of Safety, as compared across software_
+<sub><i>\*2006 ground investigation, supplemented by results from Crossrail / King’s Cross developments.</i></sub>
 
-| Gofer c-phi | Chowdhury and Xu | Oasys Slope | Oasys Safe |
-| ----------- | ---------------- | ----------- | ---------- |
-| FoS = 1.12  | FoS = 1.16       | FoS = 1.21  | FoS = 1.20 |
+## Parameters
 
-This table demonstrates that Gofer's derived FoS compares favourably with the other software packages referenced.
+The following parameters were used when modelling the flexible retaining wall.
 
-### How it compares: Slip surfaces
+**_Table 2: Ground model parameters_**
 
-The slip surface results from the LE and FE methods **compared favourably**, with the LE method limited to circular slips. Only FE modelling revealed a potential second slip surface. This may have been missed when searching for the lowest FoS in Oasys Slope alone.
+| Stratum | $\gamma$           | $\upsilon$ | $\upsilon$' | $C_{u\theta}$       | $E_{u\theta}$              | $E_{\theta}$'             | $\phi$       | $K_{0}$ | $K_{r}$ |
+| ------- | ------------------ | ---------- | ----------- | ------------------- | -------------------------- | ------------------------- | ------------ | ------- | ------- |
+| [-]     | [kN/m<sup>3</sup>] | [-]        | [-]         | [kPa]               | [kPa]                      | [kPa]                     | $[\degree ]$ | [-]     | [-]     |
+| MG      | 18                 | -          | 0.3         | -                   | -                          | 75,000                    | 25           | 0.577   | 0.429   |
+| RTD     | 20                 | -          | 0.3         | -                   | -                          | 50,000                    | 36           | 0.412   | 0.429   |
+| LC      | 20                 | 0.5        | 0.2         | 90 + 7.1 $\times$ z | 67,500 + 5,325 $\times$ z  | 56,250 + 4,438 $\times$ z | 25           | 1       | 1       |
+| LMG     | 20                 | 0.5        | 0.2         | 258 + 8 $\times$ z  | 128,800 + 3,200 $\times$ z | 77,400 + 2,400 $\times$ z | 26           | 1       | 1       |
 
-When using LE, the larger slip surface is immediately visible, but the second slip surface is only detected by examining other slip surfaces.
+<sub><i>N.B.: \***z** is the datum (0 m) that refers to the top elevation of the relevant layer (see Table 1). Gradient is taken in kPa/m below z reference value.</i></sub>
+
+## Structure modelling
+
+The proposed design secant wall was composed by **1,180mm diameter piles** with **980mm centres**. Casing was **+15.0mOD**, with **1,050mm diameter piles** below the casing. In both Gofer and Frew we used an equivalent **1,030mm** section with the following parameters:
+
+**_Table 3: STR parameters for a flexible retaining wall with steel piles_**
+
+| Width | Depth | i               | E<sub>steel</sub> | Area             | $EA$       | $EI$               |
+| ----- | ----- | --------------- | ----------------- | ---------------- | ---------- | ------------------ |
+| [m]   | [m]   | [m<sup>4</sup>] | [kPa]             | [m]<sup>2</sup>] | [kN]       | [kN*m<sup>4</sup>] |
+| 1.03  | 1.00  | 0.091061        | 40,000,000        | 1.03             | 41,200,000 | 3,642,423.3        |
+
+### Loading conditions
+
+Design loading information was provided and implemented as follows:
+
+- Berm surcharge on retained side: **14.4kPa**
+
+### Construction sequence
+
+The following construction stages were recreated within Gofer and Frew, to represent the actual construction sequence:
+
+- Initialisation
+
+- Wall installation (and apply berm surcharge)
+
+- Excavation (MG, 4m bgl)
+
+- Excavation (RTD, 7m bgl) to formation
+
+### Modelling assumptions
+
+- For simplicity we have assumed full friction between the soil and structures modelled
+
+- Porewater pressure (PWP): Hydrostatic only (no flow)
+
+- Excess PWP not calculated. No consolidation
+
+- Total stress approach used, with undrained parameters switched once from drained to undrained
+
+## How they compare
+
+### Display
+
+Gofer's results are shown on the left, while Frew is shown on the right.
+
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/goferlast-stage.png" width="380"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/frew-last-stage.png" width="400"/>
+     </div>
+</div>
+
+### Results
+
+For displacements, bending moments and shear forces, Frew results tend to be slightly higher or lower, but are considered comparable. Further subdivisions of the LC material parameters, particularly stiffness, have minimal impact on the results.
+
+Both models give similar results for the maximum bending moment, which is reflected in the design of this type of structure.
+
+<div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/displacement-graph.png" width="400"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/bending-moment-graph.png" width="400"/>
+     </div>
+          <div style="flex:1;padding-left:10px;">
+          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/shear-forces-graph.png" width="400"/>
+     </div>
+</div>
+
+**References:**
+
+Chris Barker, Marek Niewiarowski and Dinesh Patel (Arup London, UK, 2010). [\*Central Saint Giles – Basement And Foundations Designed For Future Crossrail Tunnelling.](https://www.researchgate.net/publication/361616899_CENTRAL_SAINT_GILES_-BASEMENT_AND_FOUNDATIONS_DESIGNED_FOR_FUTURE_CROSSRAIL_TUNNELLING)\*
