@@ -26,7 +26,7 @@ The major advantage of c-phi analysis is that it finds the failure surface(s), r
 
 _Geometries and fixities as modelled in Gofer_
 
-![soil](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/soil-graph.png)
+![soil](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/soil-graph.png)
 
 ## C-phi in Gofer
 
@@ -36,7 +36,7 @@ Results are presented in the mesh and as a graph, plotting maximum displacement 
 
 _A c-phi reduction graph available in Gofer_
 
-![c-phi-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/c-phi-graph.png)
+![c-phi-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/c-phi-graph.png)
 
 ### How it compares: FoS
 
