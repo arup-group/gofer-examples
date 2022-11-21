@@ -108,16 +108,11 @@ The following construction stages were recreated within Gofer and Frew, to repre
 
 ### Display
 
-Gofer's results are shown on the left, while Frew is shown on the right.
+Ground conditions as displayed in Gofer (left) and Frew (right).
 
-<div style="display:flex">
-     <div style="flex:1;padding-right:10px;">
-          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/goferlast-stage.png" width="380"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/frew-last-stage.png" width="400"/>
-     </div>
-</div>
+| Gofer | Frew |
+|-------- |------- |
+| ![gofer-model](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/goferlast-stage.png) | ![frew-model](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/frew-last-stage.png) |
 
 ### Results
 
@@ -125,17 +120,9 @@ For displacements, bending moments and shear forces, Frew results tend to be sli
 
 Both models give similar results for the maximum bending moment, which is reflected in the design of this type of structure.
 
-<div style="display:flex">
-     <div style="flex:1;padding-right:10px;">
-          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/displacement-graph.png" width="400"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/bending-moment-graph.png" width="400"/>
-     </div>
-          <div style="flex:1;padding-left:10px;">
-          <img src="https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/shear-forces-graph.png" width="400"/>
-     </div>
-</div>
+| Displacement | Bending moment | Shear forces |
+|-------- |------- | ------- |
+| ![displacement-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/displacement-graph.png)   | ![bending-moment-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/bending-moment-graph.png)  | ![shear-forces-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/shear-forces-graph.png) |
 
 **References:**
 
