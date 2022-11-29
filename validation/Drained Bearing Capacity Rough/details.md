@@ -2,7 +2,7 @@
 
 ![csg-photo](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-hufton-crow.png)
 
-<sub>Central St Giles, Bloomsbury, &copy; Hufton Crow</sub>
+Central St Giles, Bloomsbury, &copy; Hufton Crow.
 
 ## Summary
 
@@ -12,7 +12,7 @@ For this example, we have compared Gofer and Frew, using the Central St Giles de
 
 ![3d-model](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-arup-3d-model.png)
 
-<sub><i>Artist's impression of the site, Robert Powell &copy; Arup</i></sub>
+*Artist's impression of the site, Robert Powell &copy; Arup*
 
 ### The site
 
@@ -28,7 +28,7 @@ Central St Giles is located east of Tottenham Court Road, south of New Oxford St
 
 ![map](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/site-boundary.png)
 
-<sub><i>Proposed site boundary, adjacent to the Crossrail tunnel exclusion zone.</i></sub>
+*Proposed site boundary, adjacent to the Crossrail tunnel exclusion zone.*
 
 ## Model inputs
 
@@ -47,7 +47,7 @@ A 2006 ground investigation\* revealed a downward geological sequence comprising
 | LMG        | -3.5      |
 | Model base | -21.0     |
 
-<sub><i>\*2006 ground investigation, supplemented by results from Crossrail / King’s Cross developments.</i></sub>
+_*2006 ground investigation, supplemented by results from Crossrail / King’s Cross developments._
 
 ## Parameters
 
@@ -63,7 +63,7 @@ The following parameters were used when modelling the flexible retaining wall.
 | LC      | 20                 | 0.5        | 0.2         | 90 + 7.1 $\times$ z | 67,500 + 5,325 $\times$ z  | 56,250 + 4,438 $\times$ z | 25           | 1       | 1       |
 | LMG     | 20                 | 0.5        | 0.2         | 258 + 8 $\times$ z  | 128,800 + 3,200 $\times$ z | 77,400 + 2,400 $\times$ z | 26           | 1       | 1       |
 
-<sub><i>N.B.: \***z** is the datum (0 m) that refers to the top elevation of the relevant layer (see Table 1). Gradient is taken in kPa/m below z reference value.</i></sub>
+*N.B.: \***z** is the datum (0 m) that refers to the top elevation of the relevant layer (see Table 1). Gradient is taken in kPa/m below z reference value.*
 
 ## Structure modelling
 
