@@ -55,9 +55,9 @@ The following parameters were used when modelling the flexible retaining wall.
 
 **_Table 2: Ground model parameters_**
 
-| Stratum | $\gamma$           | $\upsilon$ | $\upsilon$' | $C_{u\theta}$       | $E_{u\theta}$              | $E_{\theta}$'             | $\phi$       | $K_{0}$ | $K_{r}$ |
+| Stratum | γ           | υ | υ' | C_uθ       | E_uθ             | E_θ'             | φ       | K_0 | K_r |
 | ------- | ------------------ | ---------- | ----------- | ------------------- | -------------------------- | ------------------------- | ------------ | ------- | ------- |
-| [-]     | [kN/m<sup>3</sup>] | [-]        | [-]         | [kPa]               | [kPa]                      | [kPa]                     | $[\degree ]$ | [-]     | [-]     |
+| [-]     | [kN/m^3] | [-]        | [-]         | [kPa]               | [kPa]                      | [kPa]                     | $[\degree ]$ | [-]     | [-]     |
 | MG      | 18                 | -          | 0.3         | -                   | -                          | 75,000                    | 25           | 0.577   | 0.429   |
 | RTD     | 20                 | -          | 0.3         | -                   | -                          | 50,000                    | 36           | 0.412   | 0.429   |
 | LC      | 20                 | 0.5        | 0.2         | 90 + 7.1 $\times$ z | 67,500 + 5,325 $\times$ z  | 56,250 + 4,438 $\times$ z | 25           | 1       | 1       |
@@ -71,9 +71,9 @@ The proposed design secant wall was composed by **1,180mm diameter piles** with 
 
 **_Table 3: STR parameters for a flexible retaining wall with steel piles_**
 
-| Width | Depth | i               | E<sub>steel</sub> | Area             | $EA$       | $EI$               |
+| Width | Depth | i               | E_steel | Area             | EA       | EI               |
 | ----- | ----- | --------------- | ----------------- | ---------------- | ---------- | ------------------ |
-| [m]   | [m]   | [m<sup>4</sup>] | [kPa]             | [m]<sup>2</sup>] | [kN]       | [kN*m<sup>4</sup>] |
+| [m]   | [m]   | [m^4] | [kPa]             | [m]^2] | [kN]       | [kN * m^4] |
 | 1.03  | 1.00  | 0.091061        | 40,000,000        | 1.03             | 41,200,000 | 3,642,423.3        |
 
 ### Loading conditions
