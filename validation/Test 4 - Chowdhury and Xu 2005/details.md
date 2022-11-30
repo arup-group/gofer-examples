@@ -4,17 +4,13 @@
 
 We tested Gofer’s c-phi analysis feature by modelling a cutting into multiple horizontal soil strata. This example looks at two key areas: **Factor of Safety (FoS)** and potential **failure surfaces**, to determine how our results compared with other studies.
 
-Our example model is taken from [Chowdhury and Xu, 2005](https://www.sciencedirect.com/science/article/abs/pii/095183209400063T), which was also referecned in a joint Arup-Oasys study [(_Ground Engineering, 2014_)](https://www.researchgate.net/publication/279176042_Slope_stability_analysis_-_limit_equilibrium_or_the_finite_element_method) comparing **limit equilibrium** (LE) and **finite element** (FE) methods using Oasys Slope (LE) and Oasys Safe (FE).
+Our example model is taken from [Chowdhury and Xu, 2005](https://www.sciencedirect.com/science/article/abs/pii/095183209400063T), which was also referecned in a joint Arup-Oasys study [(_Ground Engineering, 2014_)](https://www.researchgate.net/publication/279176042_Slope_stability_analysis_-_limit_equilibrium_or_the_finite_element_method) comparing **Limit Equilibrium** (LE) and **Finite Element** (FE) methods using Oasys Slope (LE) and Oasys Safe (FE).
 
 The model consists of three soil layers with parameters and geometries as shown below:
 
 _Table 1: Material parameters_
 
-| Material      | Young's modulus (Pa)      | Poisson's ratio | Cohesion (kPa) | Friction angle $(\degree)$ | Density (kN/m<sup>3</sup>) |
-| ------------- | ------------------------- | --------------- | -------------- | -------------------------- | -------------------------- |
-| Soil 1 (Sand) | 1 $\times$ 10<sup>5</sup> | 0.3             | 3              | 30                         | 21                         |
-| Soil 2 (Clay) | 1 $\times$ 10<sup>5</sup> | 0.3             | 22             | 11                         | 22                         |
-| Soil 3 (Clay) | 1 $\times$ 10<sup>5</sup> | 0.3             | 25             | 20                         | 22                         |
+![materials-table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/material-table.png)
 
 ## What is it?
 
@@ -42,9 +38,7 @@ _A c-phi reduction graph available in Gofer_
 
 _Table 2: Factor of Safety, as compared across software_
 
-| Gofer c-phi | Chowdhury and Xu | Oasys Slope | Oasys Safe |
-| ----------- | ---------------- | ----------- | ---------- |
-| FoS = 1.12  | FoS = 1.16       | FoS = 1.21  | FoS = 1.20 |
+![fos-table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/fos-table.png)
 
 This table demonstrates that Gofer's derived FoS compares favourably with the other software packages referenced.
 
