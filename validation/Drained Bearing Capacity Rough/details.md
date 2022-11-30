@@ -38,14 +38,7 @@ A 2006 ground investigation\* revealed a downward geological sequence comprising
 
 **_Table 1: Generic ground model across the site_**
 
-| Stratum    | Elevation |
-| ---------- | --------- |
-| [-]        | [m_OD]    |
-| MG         | 24.0      |
-| RTD        | 20.0      |
-| LC         | 17.0      |
-| LMG        | -3.5      |
-| Model base | -21.0     |
+![soil-layers](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/soil-layers-table.png)
 
 _*2006 ground investigation, supplemented by results from Crossrail / King’s Cross developments._
 
@@ -55,13 +48,7 @@ The following parameters were used when modelling the flexible retaining wall.
 
 **_Table 2: Ground model parameters_**
 
-| Stratum | γ           | υ | υ' | C_uθ       | E_uθ             | E_θ'             | φ       | K_0 | K_r |
-| ------- | ------------------ | ---------- | ----------- | ------------------- | -------------------------- | ------------------------- | ------------ | ------- | ------- |
-| [-]     | [kN/m^3] | [-]        | [-]         | [kPa]               | [kPa]                      | [kPa]                     | $[\degree ]$ | [-]     | [-]     |
-| MG      | 18                 | -          | 0.3         | -                   | -                          | 75,000                    | 25           | 0.577   | 0.429   |
-| RTD     | 20                 | -          | 0.3         | -                   | -                          | 50,000                    | 36           | 0.412   | 0.429   |
-| LC      | 20                 | 0.5        | 0.2         | 90 + 7.1 $\times$ z | 67,500 + 5,325 $\times$ z  | 56,250 + 4,438 $\times$ z | 25           | 1       | 1       |
-| LMG     | 20                 | 0.5        | 0.2         | 258 + 8 $\times$ z  | 128,800 + 3,200 $\times$ z | 77,400 + 2,400 $\times$ z | 26           | 1       | 1       |
+![ground-model-parameters](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/stratum-table.png)
 
 *N.B.: \***z** is the datum (0 m) that refers to the top elevation of the relevant layer (see Table 1). Gradient is taken in kPa/m below z reference value.*
 
@@ -71,10 +58,7 @@ The proposed design secant wall was composed by **1,180mm diameter piles** with 
 
 **_Table 3: STR parameters for a flexible retaining wall with steel piles_**
 
-| Width | Depth | i               | E_steel | Area             | EA       | EI               |
-| ----- | ----- | --------------- | ----------------- | ---------------- | ---------- | ------------------ |
-| [m]   | [m]   | [m^4] | [kPa]             | [m]^2] | [kN]       | [kN * m^4] |
-| 1.03  | 1.00  | 0.091061        | 40,000,000        | 1.03             | 41,200,000 | 3,642,423.3        |
+![width-depth](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/width-depth-table.png)
 
 ### Loading conditions
 
