@@ -46,4 +46,4 @@ This table demonstrates that Gofer's derived FoS compares favourably with the ot
 
 The slip surface results from the LE and FE methods **compared favourably**, with the LE method limited to circular slips. Only FE modelling revealed a potential second slip surface. This may have been missed when searching for the lowest FoS in Oasys Slope alone.
 
-When using LE, the larger slip surface is immediately visible, but the second slip surface is only detected by examining other slip surfaces.
+When using LE, the larger slip surface is immediately visible but the second slip surface is only detected by examining other slip surfaces.
