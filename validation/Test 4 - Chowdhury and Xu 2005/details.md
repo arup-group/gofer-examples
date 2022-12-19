@@ -4,7 +4,7 @@
 
 We tested Gofer’s c-phi analysis feature by modelling a cutting into multiple horizontal soil strata. This example looks at two key areas: **Factor of Safety (FoS)** and potential **failure surfaces**, to determine how our results compared with other studies.
 
-Our example model is taken from [Chowdhury and Xu, 2005](https://www.sciencedirect.com/science/article/abs/pii/095183209400063T), which was also referecned in a joint Arup-Oasys study [(_Ground Engineering, 2014_)](https://www.researchgate.net/publication/279176042_Slope_stability_analysis_-_limit_equilibrium_or_the_finite_element_method) comparing **Limit Equilibrium** (LE) and **Finite Element** (FE) methods using Oasys Slope (LE) and Oasys Safe (FE).
+Our example model is taken from [Chowdhury and Xu, 2005](https://www.sciencedirect.com/science/article/abs/pii/095183209400063T), which was also referenced in a joint Arup-Oasys study [(_Ground Engineering, 2014_)](https://www.researchgate.net/publication/279176042_Slope_stability_analysis_-_limit_equilibrium_or_the_finite_element_method) comparing **Limit Equilibrium** (LE) and **Finite Element** (FE) methods using Oasys Slope (LE) and Oasys Safe (FE).
 
 The model consists of three soil layers with parameters and geometries as shown below:
 
