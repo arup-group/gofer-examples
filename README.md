@@ -1,2 +1,2 @@
 # gofer-examples
-This repository contains examples to support the user of Oasys Gofer.
+This repository contains examples to support the user of Oasys Gofer including validation examples
