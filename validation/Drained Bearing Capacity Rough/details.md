@@ -1,4 +1,4 @@
-# Central St Giles: Flexible cantilever retaining wall validation
+# Central St Giles: Flexible cantilever retaining wall validation 
 
 ![csg-photo](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-hufton-crow.png)
 
@@ -70,23 +70,23 @@ Design loading information was provided and implemented as follows:
 
 The following construction stages were recreated within Gofer and Frew, to represent the actual construction sequence:
 
-- Initialisation
+1. Initialisation
 
-- Wall installation (and apply berm surcharge)
+2. Wall installation (and apply berm surcharge)
 
-- Excavation (MG, 4m bgl)
+3. Excavation (MG, 4m bgl)
 
-- Excavation (RTD, 7m bgl) to formation
+4. Excavation (RTD, 7m bgl) to formation
 
 ### Modelling assumptions
 
-- For simplicity we have assumed full friction between the soil and structures modelled
+For simplicity we have assumed full friction between the soil and structures modelled:
 
-- Porewater pressure (PWP): Hydrostatic only (no flow)
+- Porewater pressure (PWP): Hydrostatic only (no flow).
 
-- Excess PWP not calculated. No consolidation
+- Excess PWP not calculated. No consolidation.
 
-- Total stress approach used, with undrained parameters switched once from drained to undrained
+- Total stress approach used, with undrained parameters switched once from drained to undrained.
 
 ## How they compare
 
