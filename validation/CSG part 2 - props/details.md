@@ -2,6 +2,10 @@
 
 ## Summary and background 
 
+![csg-2](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-hufton-crow-2.png)
+
+Central St Giles, Bloomsbury, &copy; Hufton Crow.
+
 In 2010, Arup provided engineering consultancy services for the redevelopment of Central St Giles, London. **Oasys Frew** was used to design the flexible cantilever retaining walls forming the new basement. Part 1 of this case study introduced the site's obstructions, ground conditions and the parameters used when modelling the flexible retaining wall.
 
 We revisited the Central St Giles design models covered in Part 1, this time comparing Gofer and **Plaxis**.
