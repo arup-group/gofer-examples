@@ -1,4 +1,4 @@
-# C-phi analysis validation
+# C-phi analysis example model
 
 ## Summary
 

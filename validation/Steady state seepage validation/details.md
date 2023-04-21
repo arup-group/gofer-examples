@@ -1,4 +1,4 @@
-# Steady state seepage validation: Part 1
+# Steady state seepage example model: Part 1
 
 ## Summary
 

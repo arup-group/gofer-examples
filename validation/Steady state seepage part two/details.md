@@ -1,4 +1,4 @@
-# Steady state seepage validation: Part 2
+# Steady state seepage example model: Part 2
 
 ## Summary
 
@@ -46,7 +46,7 @@ The figures shown below include the computed solutions in Gofer, Oasys Slope, Pl
 
 ### Analysis results: No core
 
-![no-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/f2-nocore-gfr-plx-seep-slope.png)
+![no-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/updated-f2-nocore-gfr-plx-seep-slope.png)
 
 ### Analysis results: 2x K core reduction
 
