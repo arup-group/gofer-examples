@@ -1,46 +1,46 @@
-# Central St Giles part 2: Props
+## Central St Giles part 2: Props
 
-## Summary and background 
+### Summary and background 
 
 ![csg-2](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-hufton-crow-2.png)
 
-Central St Giles, Bloomsbury, &copy; Hufton Crow.
+*Central St Giles, Bloomsbury, &copy; Hufton Crow.*
 
 In 2010, Arup provided engineering consultancy services for the redevelopment of Central St Giles, London. **Oasys Frew** was used to design the flexible cantilever retaining walls forming the new basement. Part 1 of this case study introduced the site's obstructions, ground conditions and the parameters used when modelling the flexible retaining wall.
 
 We revisited the Central St Giles design models covered in Part 1, this time comparing Gofer and **Plaxis**.
 
-## What changed?
+### What changed?
 
 A prop structural element was installed at a 22.61m elevation at [Stage 3](#stage-3) of the construction sequence, during the excavation of the upper material (Made Ground).
 
-The prop replicates the effect of a 150mm thick concrete basement slab. 
+<p>The prop replicates the effect of a 150mm thick concrete basement slab.<br>
+  The prop structural parameters used in Gofer are presented in Table 4 below.</p>
+
+*Table 4: Structural parameters for props*
+
+![table-4](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-table-props-apr-23.png)
 
 The image below shows a visual representation of the Gofer model, with a prop.
 
 | Gofer |
 |--------|
 |![prop-gofer](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/props-gofer-model-apr-23.png)|
+*Ground conditions modelled in Gofer, including structural elements and loads*
 
-### How it compares: Results
+#### How it compares: Results
 
 Again, displacement, bending moment and shear forces were all tested. The results below show the forces recorded at the prop in both Gofer and Plaxis, and show that these values compare well.
 
-#### Stage 3
+##### Stage 3
 
-Gofer: 94.1 kN/m 
+<p>Gofer: 94.1 kN/m <br>
+Plaxis: 99.6 kN/m </p>
 
-Plaxis: 99.6 kN/m 
+##### Stage 4
 
-#### Stage 4
-
-Gofer: 156.3 kN/m 
-
-Plaxis: 155.8 kN/m 
-
-**Table 4: Structural parameters for props**
-
-![table-4](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-table-props-apr-23.png)
+<p>Gofer: 156.3 kN/m <br> 
+Plaxis: 155.8 kN/m </p> 
 
 | Displacement | Bending moment | Shear forces |
 |-------- |------- | ------- |
