@@ -1,6 +1,6 @@
-# Steady state seepage example model: Part 1
+## Steady state seepage example model: Part 1
 
-## Summary
+### Summary
 
 We tested Gofer’s **steady state seepage** features by modelling a homogenous and isotropic material earth dam placed on top of an assumed horizontal impervious layer. The model contains set boundary conditions and a drain at the downstream toe of the proposed structure.
 
@@ -16,9 +16,9 @@ A summary of the geometry and key parameters is presented below:
 
 ![parameters](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/smaller-sand-table.png)
 
-*A table showing silt sand permeability*
+*Table showing silty sand permeability used for modelling*
 
-## What is it?
+### What is it?
 
 Steady state seepage is a key part of the analyses undertaken to characterise the groundwater components in geotechnical engineering. 
 
@@ -28,7 +28,7 @@ In turn, this information is used to derive credible porewater pressures in a gr
 
 Gofer creates plots of various magnitudes including: *porewater pressures, head, hydraulic gradient, and seepage velocities.*
 
-## Steady state seepage in Gofer
+### Steady state seepage in Gofer
 
 - Gofer’s steady state seepage capabilities are found in the **Configure stages** mode, under **Stage settings**.
 
@@ -42,7 +42,7 @@ Gofer creates plots of various magnitudes including: *porewater pressures, head,
 
 - In the **Results** mode, users can generate a variety of plots to display magnitudes such as piezometric head, porewater pressures, seepage velocity and hydraulic gradient. 
 
-## How it compares: Analytical solution
+### How it compares: Analytical solution
 
 In *Groundwater and Seepage*, Harr presents the case of an earth dam, with no low permeability core. The dam is composed of a single material with isotropic hydraulic conductivity, on top of an impervious base. A toe filter is installed at the downstream toe. 
 
@@ -62,7 +62,7 @@ These images below show the computed analytical solution plotted on top of the G
 
 *Analysis results in Plaxis*
 
-## How it compares: Oasys Slope and Plaxis
+### How it compares: Oasys Slope and Plaxis
 
 The porewater pressure results attained from Oasys Slope and Plaxis were a match for both the analytical solution and Gofer. 
 
