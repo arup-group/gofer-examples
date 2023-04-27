@@ -1,6 +1,6 @@
-# Steady state seepage example model: Part 2
+## Steady state seepage example model: Part 2
 
-## Summary
+### Summary
 
 This example model continues the validation study we began in **Steady state seepage validation: Part 1**.
 
@@ -10,7 +10,7 @@ In this example, the dam flanks of our structure are made of silty *sand* while 
 
 This example is used to make a comparison of results from **Gofer, Oasys Slope, Plaxis** and **SEEP/W**. 
 
-## Source material and background
+### Source material and background
 
 Our example model geometry is taken from *Groundwater and Seepage*, Milton E. Harr (1962; rev. 1990, section 8.6).
 
@@ -20,43 +20,38 @@ The revised model used here introduces a *low permeability core*. Harr's analyti
 
 The introduction of an isotropic low hydraulic conductivity material at the dam core is common practice by dam engineers who frequently face this problem. 
 
-## Parameters
+### Parameters
 
 We conducted a sensitivity analysis under different scenarios, analysing the behaviour of the groundwater pressures within the dam body. The assumed changes in hydraulic conductivity, **K**, at the dam core are presented in the following summary of geometry and key parameters.
 
-![table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/parameter-table-part-2.png)
+*Table 1: Material types and associated permeabilities*
 
-*A table showing material type and permeability*
+![table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/parameter-table-part-2.png)
 
 ![cross-section](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/cross-section-sss-part-2.png)
 
-*A graph showing a cross-section of a dam and groundwater drain*
+*Graph showing dam cross-section and toe drain/filter*
 
-## How it compares: Oasys Slope, Plaxis and SEEP/W
+### How it compares: Oasys Slope, Plaxis and SEEP/W
 
 The computed analytical solution for this comparison study is a match with Gofer, Oasys Slope, Plaxis and SEEP/W for most scenarios. 
 
 In cases where the dam core material is 5x and 10x lower, the different implementation of the Finite Element solver solutions may account for some slight discrepancies. These discrepancies will be more obvious for larger ratios of Kflanks / Kcore.  
 
-## Results
+### Results
 
 The porewater pressure results obtained from Oasys Slope, Plaxis and SEEP/W are also a like-for-like match with Gofer for the scenarios with no core and 2x hydraulic conductivity at the dam core.
 
 The figures shown below include the computed solutions in Gofer, Oasys Slope, Plaxis and SEEP/W for all scenarios. 
 
-### Analysis results: No core
-
 ![no-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/updated-f2-nocore-gfr-plx-seep-slope.png)
-
-### Analysis results: 2x K core reduction
+*Analysis results: No core*<br />
 
 ![2-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/f3-2xcore-gfr-plx-seep-slope.png)
-
-### Analysis results: 5x K core reduction
+*Analysis results: 2x K core reduction*
 
 ![5-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/f4-5xcore-gfr-plx-seep-slope.png)
-
-### Analysis results: 10x K core reduction
+*Analysis results: 5x K core reduction*
 
 ![10-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/f5-10xcore-gfr-plx-seep-slope.png)
-
+*Analysis results: 10x K core reduction*
