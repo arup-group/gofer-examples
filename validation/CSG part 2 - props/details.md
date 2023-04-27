@@ -28,16 +28,16 @@ The image below shows a visual representation of the Gofer model, with a prop.
 |![prop-gofer](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/props-gofer-model-apr-23.png)|
 *Ground conditions modelled in Gofer, including structural elements and loads*
 
-#### How it compares: Results
+### How it compares: Results
 
 Again, displacement, bending moment and shear forces were all tested. The results below show the forces recorded at the prop in both Gofer and Plaxis, and show that these values compare well.
 
-##### Stage 3
+#### Stage 3
 
 <p>Gofer: 94.1 kN/m <br>
 Plaxis: 99.6 kN/m </p>
 
-##### Stage 4
+#### Stage 4
 
 <p>Gofer: 156.3 kN/m <br> 
 Plaxis: 155.8 kN/m </p> 
@@ -46,7 +46,7 @@ Plaxis: 155.8 kN/m </p>
 |-------- |------- | ------- |
 |![displacement-props](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/displacement-props-apr-23.png)| ![bending-props](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/bending-moment-props-apr-23.png)| ![shear-props](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/shear-force-props-apr-23.png)|
 
-**References:**
+### **References:**
 
 Chris Barker, Marek Niewiarowski and Dinesh Patel (Arup London, UK, 2010). [\*Central Saint Giles – Basement And Foundations Designed For Future Crossrail Tunnelling.](https://www.researchgate.net/publication/361616899_CENTRAL_SAINT_GILES_-BASEMENT_AND_FOUNDATIONS_DESIGNED_FOR_FUTURE_CROSSRAIL_TUNNELLING)\*
 
