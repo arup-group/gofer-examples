@@ -1,4 +1,4 @@
-## Central St Giles part 2: Props
+## Central St Giles part 2: Props 
 
 ### Summary and background 
 
