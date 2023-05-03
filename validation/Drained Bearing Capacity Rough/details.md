@@ -2,7 +2,7 @@
 
 ![csg-photo](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-hufton-crow.png)
 
-*Central St Giles, Bloomsbury, <sup>&copy;</sup>Hufton+Crow/L&G.*
+*Central St Giles, Bloomsbury, &copy;Hufton+Crow/L&G.*
 
 ### Summary
 
@@ -12,7 +12,7 @@ For this example, we have compared Gofer and Frew, using the Central St Giles de
 
 ![3d-model](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/csg-arup-3d-model.png)
 
-*Artist's impression of the site, Robert Powell, <sup>&copy;</sup>Arup*
+*Artist's impression of the site, Robert Powell, &copy;Arup*
 
 #### The site
 
