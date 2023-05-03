@@ -4,10 +4,8 @@
         "title": "Gofer Example - Steady state seepage",
         "description": "Seepage through dam",
         "jobNumber": "12345-67",
-        "longitude": 0,
-        "latitude": 0,
         "owner": "710fe8da-8cb3-41c1-807b-13e20e0a59d1",
-        "modelCreatedDate": "2022-11-16T12:15:24.1696371Z"
+        "modelCreatedDate": "2023-05-03T16:03:38.6246497Z"
     },
     "stages": [
         {
@@ -37,6 +35,7 @@
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -88,6 +87,7 @@
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -139,6 +139,7 @@
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -190,6 +191,7 @@
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -241,6 +243,7 @@
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -365,6 +368,7 @@
     "structures": [],
     "displacements": [],
     "loads": [],
+    "moments": [],
     "structuralConnections": [],
     "vertices": [
         {
@@ -418,6 +422,7 @@
     ],
     "soilBlocks": [
         {
+            "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e",
             "name": "Soil block 1",
             "geometries": [
                 {
@@ -436,10 +441,10 @@
                         ]
                     ]
                 }
-            ],
-            "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e"
+            ]
         },
         {
+            "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5",
             "name": "Soil block 2",
             "geometries": [
                 {
@@ -458,10 +463,10 @@
                         ]
                     ]
                 }
-            ],
-            "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5"
+            ]
         },
         {
+            "id": "61580950-1579-52c0-e588-fcda4d7036cb",
             "name": "Soil block 3",
             "geometries": [
                 {
@@ -480,8 +485,7 @@
                         ]
                     ]
                 }
-            ],
-            "id": "61580950-1579-52c0-e588-fcda4d7036cb"
+            ]
         }
     ],
     "flowControls": [
