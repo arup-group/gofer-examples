@@ -28,7 +28,7 @@ We conducted a sensitivity analysis under different scenarios, analysing the beh
 
 ![table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/parameter-table-part-2.png)
 
-![cross-section](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/cross-section-sss-part-2.png)
+![cross-section](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Slide-1-original-sss-validation-model.png)
 
 *Graph showing dam cross-section and toe drain/filter*
 
