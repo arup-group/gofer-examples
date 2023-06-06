@@ -14,7 +14,7 @@ Dewatering of excavations, e.g., during basement construction, are typical of en
 
 Related engineering investigations, such as those to estimate flows into open excavation for choosing and sizing appropriate dewatering systems, will be demonstrated in a further example using a well-established analytical solution.
 
-![Figure 1: Problem setting, model geometry](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Case-study-SSS3-F1-Problem-setting-v3.png)
+![Figure 1: Problem setting, model geometry](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/sss4-problem-setting.png)
 
 ## Conditions used
 
