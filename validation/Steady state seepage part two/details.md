@@ -26,7 +26,7 @@ We conducted a sensitivity analysis under different scenarios, analysing the beh
 
 _Table 1: Material types and associated permeabilities_
 
-![table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/parameter-table-part-2.png)
+![table](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Table-ss-part2v2.png)
 
 ![cross-section](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Slide-1-original-sss-validation-model.png)
 
@@ -44,7 +44,7 @@ The porewater pressure results obtained from Oasys Slope, Plaxis and SEEP/W are 
 
 The figures shown below include the computed solutions in Gofer, Oasys Slope, Plaxis and SEEP/W for all scenarios.
 
-![no-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/updated-f2-nocore-gfr-plx-seep-slope.png)
+![no-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/f2-nocore-gfr-plx-seep-slope2.png)
 _Analysis results: No core_
 
 ![2-core](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/f3-2xcore-gfr-plx-seep-slope.png)
