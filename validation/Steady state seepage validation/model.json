@@ -1,40 +1,41 @@
 {
-    "id": "36b0804e-3ae5-4f00-95bc-f4df405a77ab",
+    "id": "5e8f3e0b-e76a-4fcf-8f42-83bab7a96201",
     "metadata": {
         "title": "Gofer Example - Steady state seepage",
-        "description": "Seepage through dam",
+        "description": "Dam with core of various permeabilities",
         "jobNumber": "12345-67",
         "owner": "710fe8da-8cb3-41c1-807b-13e20e0a59d1",
-        "modelCreatedDate": "2022-11-16T12:15:24.1696371Z"
+        "modelCreatedDate": "2023-08-31T09:28:02.4857598Z"
     },
     "stages": [
         {
-            "id": "ee4d0fde-cf9b-4b99-9018-ab0a8a37d712",
+            "id": "6012e635-f86d-4a9b-a412-ee6c62c4b6fb",
             "name": "Initial",
             "stageSoilBlocks": [
                 {
-                    "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e",
+                    "id": "8a9beab9-f34e-e936-9bcb-02444052e391",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5",
+                    "id": "0ec7b818-366e-579e-08d8-5cc098421b7e",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "61580950-1579-52c0-e588-fcda4d7036cb",
+                    "id": "8942b8f1-c3ce-aef9-6ad6-22fd5ecd3a7b",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -42,11 +43,11 @@
             "stageStructures": [],
             "stageFlowControls": [
                 {
-                    "id": "f765f4ab-99f4-872c-4ce6-348671ee1d38",
+                    "id": "0cc93dc8-d6cb-ba61-8452-bf5c4a08d535",
                     "isActive": false
                 },
                 {
-                    "id": "e846cf95-2359-2f53-2a4d-74ef52e3a281",
+                    "id": "752775e7-2df6-f80e-5800-a8a659b56568",
                     "isActive": false
                 }
             ],
@@ -60,32 +61,33 @@
             }
         },
         {
-            "id": "9915f5b9-97c5-6839-2b0f-9ecd692c36fc",
-            "name": "SSS - No CORE",
+            "id": "34b33fad-cbfe-9053-43bb-d03cb1b9f1bd",
+            "name": "SSS - No core",
             "stageSoilBlocks": [
                 {
-                    "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e",
+                    "id": "8a9beab9-f34e-e936-9bcb-02444052e391",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5",
+                    "id": "0ec7b818-366e-579e-08d8-5cc098421b7e",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "61580950-1579-52c0-e588-fcda4d7036cb",
+                    "id": "8942b8f1-c3ce-aef9-6ad6-22fd5ecd3a7b",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -93,16 +95,16 @@
             "stageStructures": [],
             "stageFlowControls": [
                 {
-                    "id": "f765f4ab-99f4-872c-4ce6-348671ee1d38",
+                    "id": "0cc93dc8-d6cb-ba61-8452-bf5c4a08d535",
                     "isActive": true
                 },
                 {
-                    "id": "e846cf95-2359-2f53-2a4d-74ef52e3a281",
+                    "id": "752775e7-2df6-f80e-5800-a8a659b56568",
                     "isActive": true
                 }
             ],
             "stageAnalysisSettings": {
-                "parentStageId": "ee4d0fde-cf9b-4b99-9018-ab0a8a37d712",
+                "parentStageId": "6012e635-f86d-4a9b-a412-ee6c62c4b6fb",
                 "loadIncrements": 10,
                 "maxIterations": 100,
                 "forceConvergenceTolerance": 1e-7,
@@ -111,32 +113,33 @@
             }
         },
         {
-            "id": "03563825-2ad2-69eb-176a-481d24545bce",
-            "name": "SSS - CORE 2x",
+            "id": "fab89709-872f-9596-547d-a415fa488a57",
+            "name": "SSS - Core 2x",
             "stageSoilBlocks": [
                 {
-                    "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e",
+                    "id": "8a9beab9-f34e-e936-9bcb-02444052e391",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5",
+                    "id": "0ec7b818-366e-579e-08d8-5cc098421b7e",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "61580950-1579-52c0-e588-fcda4d7036cb",
+                    "id": "8942b8f1-c3ce-aef9-6ad6-22fd5ecd3a7b",
                     "isActive": true,
-                    "materialId": "a3c36544-44be-dd52-41f2-a11588089ba1",
+                    "materialId": "ddf6f5a5-7ab0-b28c-96c1-a30815a6e2f6",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -144,16 +147,16 @@
             "stageStructures": [],
             "stageFlowControls": [
                 {
-                    "id": "f765f4ab-99f4-872c-4ce6-348671ee1d38",
+                    "id": "0cc93dc8-d6cb-ba61-8452-bf5c4a08d535",
                     "isActive": true
                 },
                 {
-                    "id": "e846cf95-2359-2f53-2a4d-74ef52e3a281",
+                    "id": "752775e7-2df6-f80e-5800-a8a659b56568",
                     "isActive": true
                 }
             ],
             "stageAnalysisSettings": {
-                "parentStageId": "9915f5b9-97c5-6839-2b0f-9ecd692c36fc",
+                "parentStageId": "34b33fad-cbfe-9053-43bb-d03cb1b9f1bd",
                 "loadIncrements": 10,
                 "maxIterations": 100,
                 "forceConvergenceTolerance": 1e-7,
@@ -162,32 +165,33 @@
             }
         },
         {
-            "id": "81300a4e-3c41-2e37-e59b-31786149c137",
-            "name": "SSS - CORE 5x",
+            "id": "7522ccb3-aec6-d9f9-e3cf-5802a7c927d6",
+            "name": "SSS - Core 5x",
             "stageSoilBlocks": [
                 {
-                    "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e",
+                    "id": "8a9beab9-f34e-e936-9bcb-02444052e391",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5",
+                    "id": "0ec7b818-366e-579e-08d8-5cc098421b7e",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "61580950-1579-52c0-e588-fcda4d7036cb",
+                    "id": "8942b8f1-c3ce-aef9-6ad6-22fd5ecd3a7b",
                     "isActive": true,
-                    "materialId": "71913485-722f-1acd-cd90-4d3a73a5f98b",
+                    "materialId": "82cd6c3b-0ab1-182a-a34b-8443148ea36d",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -195,16 +199,16 @@
             "stageStructures": [],
             "stageFlowControls": [
                 {
-                    "id": "f765f4ab-99f4-872c-4ce6-348671ee1d38",
+                    "id": "0cc93dc8-d6cb-ba61-8452-bf5c4a08d535",
                     "isActive": true
                 },
                 {
-                    "id": "e846cf95-2359-2f53-2a4d-74ef52e3a281",
+                    "id": "752775e7-2df6-f80e-5800-a8a659b56568",
                     "isActive": true
                 }
             ],
             "stageAnalysisSettings": {
-                "parentStageId": "03563825-2ad2-69eb-176a-481d24545bce",
+                "parentStageId": "fab89709-872f-9596-547d-a415fa488a57",
                 "loadIncrements": 10,
                 "maxIterations": 100,
                 "forceConvergenceTolerance": 1e-7,
@@ -213,32 +217,33 @@
             }
         },
         {
-            "id": "118320fb-d4f3-5db9-815b-b445dfce616e",
-            "name": "SSS - CORE 10x",
+            "id": "4afaa77f-6abd-d6d5-6de3-cfe72858d881",
+            "name": "SSS - Core 10x",
             "stageSoilBlocks": [
                 {
-                    "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e",
+                    "id": "8a9beab9-f34e-e936-9bcb-02444052e391",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5",
+                    "id": "0ec7b818-366e-579e-08d8-5cc098421b7e",
                     "isActive": true,
-                    "materialId": "dee14510-a07c-7e39-144e-d127476e5fbe",
+                    "materialId": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 },
                 {
-                    "id": "61580950-1579-52c0-e588-fcda4d7036cb",
+                    "id": "8942b8f1-c3ce-aef9-6ad6-22fd5ecd3a7b",
                     "isActive": true,
-                    "materialId": "dda0b2c6-ece0-8a4f-ebe0-ecce2c2a54f5",
+                    "materialId": "97cbb6dc-e44c-3e46-6a49-c0eb51c10363",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
                     "waterProfileType": 0
                 }
             ],
             "stageLoads": [],
+            "stageMoments": [],
             "stageProps": [],
             "stageNodeLinks": [],
             "stageDisps": [],
@@ -246,16 +251,16 @@
             "stageStructures": [],
             "stageFlowControls": [
                 {
-                    "id": "f765f4ab-99f4-872c-4ce6-348671ee1d38",
+                    "id": "0cc93dc8-d6cb-ba61-8452-bf5c4a08d535",
                     "isActive": true
                 },
                 {
-                    "id": "e846cf95-2359-2f53-2a4d-74ef52e3a281",
+                    "id": "752775e7-2df6-f80e-5800-a8a659b56568",
                     "isActive": true
                 }
             ],
             "stageAnalysisSettings": {
-                "parentStageId": "81300a4e-3c41-2e37-e59b-31786149c137",
+                "parentStageId": "7522ccb3-aec6-d9f9-e3cf-5802a7c927d6",
                 "loadIncrements": 10,
                 "maxIterations": 100,
                 "forceConvergenceTolerance": 1e-7,
@@ -272,7 +277,7 @@
                 "b": 109,
                 "a": 255
             },
-            "id": "dee14510-a07c-7e39-144e-d127476e5fbe",
+            "id": "908f7ba6-8317-cdd9-dcda-378a1eac09f9",
             "name": "Silty SAND",
             "analysisMaterial": {
                 "materialType": 0,
@@ -295,8 +300,8 @@
                 "b": 64,
                 "a": 255
             },
-            "id": "a3c36544-44be-dd52-41f2-a11588089ba1",
-            "name": "Silty CLAY - CORE - 2x",
+            "id": "ddf6f5a5-7ab0-b28c-96c1-a30815a6e2f6",
+            "name": "Silty CLAY - Core 2x",
             "analysisMaterial": {
                 "materialType": 0,
                 "drainageCondition": 1,
@@ -313,13 +318,13 @@
         },
         {
             "colour": {
-                "r": 166,
-                "g": 166,
-                "b": 56,
+                "r": 160,
+                "g": 146,
+                "b": 72,
                 "a": 255
             },
-            "id": "71913485-722f-1acd-cd90-4d3a73a5f98b",
-            "name": "Silty CLAY - CORE - 5x",
+            "id": "82cd6c3b-0ab1-182a-a34b-8443148ea36d",
+            "name": "Silty CLAY - Core 5x",
             "analysisMaterial": {
                 "materialType": 0,
                 "drainageCondition": 1,
@@ -341,8 +346,8 @@
                 "b": 57,
                 "a": 255
             },
-            "id": "dda0b2c6-ece0-8a4f-ebe0-ecce2c2a54f5",
-            "name": "Silty CLAY - CORE - 10x",
+            "id": "97cbb6dc-e44c-3e46-6a49-c0eb51c10363",
+            "name": "Silty CLAY - Core 10x",
             "analysisMaterial": {
                 "materialType": 0,
                 "drainageCondition": 1,
@@ -363,59 +368,61 @@
     "structures": [],
     "displacements": [],
     "loads": [],
+    "moments": [],
     "structuralConnections": [],
     "vertices": [
         {
-            "id": "f3888f79-0cea-c62e-3423-72e37c30d281",
+            "id": "d5b8d9b8-e908-ebc8-9371-8a82875efea9",
             "x": 0,
             "y": 0,
-            "meshSize": 2
+            "meshSize": 0
         },
         {
-            "id": "57527bab-3a89-d0c7-0e98-7b40b4b3ed1f",
+            "id": "55dcdcc8-c04e-1f13-d51e-2a06e2af270c",
             "x": 110,
             "y": 0,
-            "meshSize": 2
+            "meshSize": 0
         },
         {
-            "id": "80104412-a98e-1d7e-f754-3cb39ec6ca28",
+            "id": "de4891a9-dea1-faf1-1884-03e6e8230933",
             "x": 70,
             "y": 40,
-            "meshSize": 2
+            "meshSize": 0
         },
         {
-            "id": "aef8c49b-c5b3-26c4-be0d-ddbec9f9ea8a",
+            "id": "468374e5-9daa-5ed6-7aa9-4e96266e80bb",
             "x": 40,
             "y": 40,
-            "meshSize": 2
+            "meshSize": 0
         },
         {
-            "id": "f3b6e468-0129-7e90-a0f6-985a5735fb4d",
-            "x": 30,
-            "y": 30,
-            "meshSize": 2
-        },
-        {
-            "id": "8e18da17-a151-d9b1-b197-cee5c6d63a38",
-            "x": 98,
-            "y": 0,
-            "meshSize": 2
-        },
-        {
-            "id": "aac86a90-69e7-f697-caf1-2c2595644e13",
+            "id": "7a9b75a3-49cd-2b3c-5116-026816720b98",
             "x": 35,
             "y": 0,
-            "meshSize": 2
+            "meshSize": 0
         },
         {
-            "id": "5ab2ea2a-8c9f-085e-3a36-dd1e8de5cb93",
+            "id": "29939675-3b5d-7c95-5d5d-9147d246c8c4",
             "x": 75,
             "y": 0,
-            "meshSize": 2
+            "meshSize": 0
+        },
+        {
+            "id": "28689b31-c423-4224-4633-0e4f639bc8c0",
+            "x": 30,
+            "y": 30,
+            "meshSize": 0
+        },
+        {
+            "id": "39906325-6870-66c3-1dc0-9c4d3bb64114",
+            "x": 98,
+            "y": 0,
+            "meshSize": 0
         }
     ],
     "soilBlocks": [
         {
+            "id": "8a9beab9-f34e-e936-9bcb-02444052e391",
             "name": "Soil block 1",
             "geometries": [
                 {
@@ -424,20 +431,20 @@
                             {
                                 "type": 0,
                                 "vertices": [
-                                    "80104412-a98e-1d7e-f754-3cb39ec6ca28",
-                                    "5ab2ea2a-8c9f-085e-3a36-dd1e8de5cb93",
-                                    "8e18da17-a151-d9b1-b197-cee5c6d63a38",
-                                    "57527bab-3a89-d0c7-0e98-7b40b4b3ed1f",
-                                    "80104412-a98e-1d7e-f754-3cb39ec6ca28"
+                                    "de4891a9-dea1-faf1-1884-03e6e8230933",
+                                    "29939675-3b5d-7c95-5d5d-9147d246c8c4",
+                                    "39906325-6870-66c3-1dc0-9c4d3bb64114",
+                                    "55dcdcc8-c04e-1f13-d51e-2a06e2af270c",
+                                    "de4891a9-dea1-faf1-1884-03e6e8230933"
                                 ]
                             }
                         ]
                     ]
                 }
-            ],
-            "id": "12e2c54d-e183-e866-03ad-665a7a97fc7e"
+            ]
         },
         {
+            "id": "0ec7b818-366e-579e-08d8-5cc098421b7e",
             "name": "Soil block 2",
             "geometries": [
                 {
@@ -446,20 +453,20 @@
                             {
                                 "type": 0,
                                 "vertices": [
-                                    "f3888f79-0cea-c62e-3423-72e37c30d281",
-                                    "aac86a90-69e7-f697-caf1-2c2595644e13",
-                                    "aef8c49b-c5b3-26c4-be0d-ddbec9f9ea8a",
-                                    "f3b6e468-0129-7e90-a0f6-985a5735fb4d",
-                                    "f3888f79-0cea-c62e-3423-72e37c30d281"
+                                    "d5b8d9b8-e908-ebc8-9371-8a82875efea9",
+                                    "7a9b75a3-49cd-2b3c-5116-026816720b98",
+                                    "468374e5-9daa-5ed6-7aa9-4e96266e80bb",
+                                    "28689b31-c423-4224-4633-0e4f639bc8c0",
+                                    "d5b8d9b8-e908-ebc8-9371-8a82875efea9"
                                 ]
                             }
                         ]
                     ]
                 }
-            ],
-            "id": "e35d17c3-c173-a7fa-9a9d-e9f33458ccd5"
+            ]
         },
         {
+            "id": "8942b8f1-c3ce-aef9-6ad6-22fd5ecd3a7b",
             "name": "Soil block 3",
             "geometries": [
                 {
@@ -468,18 +475,17 @@
                             {
                                 "type": 0,
                                 "vertices": [
-                                    "aac86a90-69e7-f697-caf1-2c2595644e13",
-                                    "5ab2ea2a-8c9f-085e-3a36-dd1e8de5cb93",
-                                    "80104412-a98e-1d7e-f754-3cb39ec6ca28",
-                                    "aef8c49b-c5b3-26c4-be0d-ddbec9f9ea8a",
-                                    "aac86a90-69e7-f697-caf1-2c2595644e13"
+                                    "7a9b75a3-49cd-2b3c-5116-026816720b98",
+                                    "29939675-3b5d-7c95-5d5d-9147d246c8c4",
+                                    "de4891a9-dea1-faf1-1884-03e6e8230933",
+                                    "468374e5-9daa-5ed6-7aa9-4e96266e80bb",
+                                    "7a9b75a3-49cd-2b3c-5116-026816720b98"
                                 ]
                             }
                         ]
                     ]
                 }
-            ],
-            "id": "61580950-1579-52c0-e588-fcda4d7036cb"
+            ]
         }
     ],
     "flowControls": [
@@ -489,13 +495,13 @@
                 "flowRate": 0,
                 "head": 30,
                 "nodes": [
-                    "f3888f79-0cea-c62e-3423-72e37c30d281",
-                    "f3b6e468-0129-7e90-a0f6-985a5735fb4d"
+                    "d5b8d9b8-e908-ebc8-9371-8a82875efea9",
+                    "28689b31-c423-4224-4633-0e4f639bc8c0"
                 ],
                 "flowControlType": 2
             },
             "name": "Line flow control 1",
-            "id": "f765f4ab-99f4-872c-4ce6-348671ee1d38"
+            "id": "0cc93dc8-d6cb-ba61-8452-bf5c4a08d535"
         },
         {
             "flowControlData": {
@@ -503,16 +509,17 @@
                 "flowRate": 0,
                 "head": 0,
                 "nodes": [
-                    "8e18da17-a151-d9b1-b197-cee5c6d63a38",
-                    "57527bab-3a89-d0c7-0e98-7b40b4b3ed1f"
+                    "39906325-6870-66c3-1dc0-9c4d3bb64114",
+                    "55dcdcc8-c04e-1f13-d51e-2a06e2af270c"
                 ],
                 "flowControlType": 3
             },
             "name": "Line flow control 2",
-            "id": "e846cf95-2359-2f53-2a4d-74ef52e3a281"
+            "id": "752775e7-2df6-f80e-5800-a8a659b56568"
         }
     ],
     "nodeLinks": [],
     "overlays": [],
-    "crossSections": []
+    "crossSections": [],
+    "samplePoints": []
 }
