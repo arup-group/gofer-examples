@@ -106,7 +106,7 @@ Both models give similar results for the maximum bending moment, which is reflec
 
 | Displacement | Bending moment | Shear forces |
 |-------- |------- | ------- |
-| ![displacement-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/displacement-graph.png)   | ![bending-moment-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/bending-moment-graph.png)  | ![shear-forces-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/shear-forces-graph.png) |
+| ![displacement-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Displacements-2.png)   | ![bending-moment-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/BM-2.png)  | ![shear-forces-graph](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/SF-2.png) |
 
 ### **References:**
 
