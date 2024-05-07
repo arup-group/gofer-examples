@@ -53,8 +53,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "00000000-0000-0000-0000-000000000000",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": false,
                 "analysisType": 0
@@ -105,8 +105,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "6012e635-f86d-4a9b-a412-ee6c62c4b6fb",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 2
@@ -157,8 +157,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "34b33fad-cbfe-9053-43bb-d03cb1b9f1bd",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 2
@@ -209,8 +209,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "fab89709-872f-9596-547d-a415fa488a57",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 2
@@ -261,8 +261,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "7522ccb3-aec6-d9f9-e3cf-5802a7c927d6",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 2
