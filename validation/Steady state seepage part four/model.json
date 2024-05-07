@@ -81,8 +81,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "00000000-0000-0000-0000-000000000000",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": false,
                 "analysisType": 2
@@ -161,8 +161,8 @@
             ],
             "stageAnalysisSettings": {
                 "parentStageId": "c129fb41-b59a-46f2-9b04-d93f3b8249d7",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": false,
                 "analysisType": 2

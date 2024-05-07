@@ -18,8 +18,8 @@
             "stageAnalysisSettings": {
                 "parentStageId": "00000000-0000-0000-0000-000000000000",
                 "parentResultsKey": "",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 0.000001,
                 "resetDisplacements": true,
                 "analysisType": 0,
@@ -141,8 +141,8 @@
             "stageAnalysisSettings": {
                 "parentStageId": "7590f1d4-044d-4532-a213-d24f7c059e0d",
                 "parentResultsKey": "",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 0.000001,
                 "resetDisplacements": true,
                 "analysisType": 0,
@@ -264,8 +264,8 @@
             "stageAnalysisSettings": {
                 "parentStageId": "9adf4756-8c3a-49d3-839c-0abb0c47dba1",
                 "parentResultsKey": "",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 0.000001,
                 "resetDisplacements": false,
                 "analysisType": 0,
@@ -387,8 +387,8 @@
             "stageAnalysisSettings": {
                 "parentStageId": "7eca2314-bc37-4a3c-acd6-f2eb9c51eed5",
                 "parentResultsKey": "",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 0.000001,
                 "resetDisplacements": false,
                 "analysisType": 0,

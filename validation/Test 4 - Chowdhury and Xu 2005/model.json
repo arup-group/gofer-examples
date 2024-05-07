@@ -44,8 +44,8 @@
             "stageFlowControls": [],
             "stageAnalysisSettings": {
                 "parentStageId": "00000000-0000-0000-0000-000000000000",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": false,
                 "analysisType": 0
@@ -87,8 +87,8 @@
             "stageFlowControls": [],
             "stageAnalysisSettings": {
                 "parentStageId": "4a8abecf-dcb6-43c4-a1c4-da43d0dbdf60",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 0
@@ -130,8 +130,8 @@
             "stageFlowControls": [],
             "stageAnalysisSettings": {
                 "parentStageId": "3775c884-18f9-48bb-b934-3ea44369c56f",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 0
@@ -173,8 +173,8 @@
             "stageFlowControls": [],
             "stageAnalysisSettings": {
                 "parentStageId": "a5f64dbc-f220-43ed-9669-e15fd4afa41b",
-                "loadIncrements": 10,
-                "maxIterations": 100,
+                "loadIncrements": 1,
+                "maxIterations": 10000,
                 "forceConvergenceTolerance": 1e-7,
                 "resetDisplacements": true,
                 "analysisType": 1
