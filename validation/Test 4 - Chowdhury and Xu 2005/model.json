@@ -46,7 +46,7 @@
                 "parentStageId": "00000000-0000-0000-0000-000000000000",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": false,
                 "analysisType": 0
             }
@@ -89,7 +89,7 @@
                 "parentStageId": "4a8abecf-dcb6-43c4-a1c4-da43d0dbdf60",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 0
             }
@@ -132,7 +132,7 @@
                 "parentStageId": "3775c884-18f9-48bb-b934-3ea44369c56f",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 0
             }
@@ -174,8 +174,8 @@
             "stageAnalysisSettings": {
                 "parentStageId": "a5f64dbc-f220-43ed-9669-e15fd4afa41b",
                 "loadIncrements": 1,
-                "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "maxIterations": 2000,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 1
             }
