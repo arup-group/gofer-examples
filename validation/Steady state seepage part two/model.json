@@ -55,7 +55,7 @@
                 "parentStageId": "00000000-0000-0000-0000-000000000000",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": false,
                 "analysisType": 0
             }
@@ -107,7 +107,7 @@
                 "parentStageId": "ee4d0fde-cf9b-4b99-9018-ab0a8a37d712",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 2
             }
@@ -159,7 +159,7 @@
                 "parentStageId": "9915f5b9-97c5-6839-2b0f-9ecd692c36fc",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 2
             }
@@ -211,7 +211,7 @@
                 "parentStageId": "03563825-2ad2-69eb-176a-481d24545bce",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 2
             }
@@ -263,7 +263,7 @@
                 "parentStageId": "81300a4e-3c41-2e37-e59b-31786149c137",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
-                "forceConvergenceTolerance": 1e-7,
+                "forceConvergenceTolerance": 1e-6,
                 "resetDisplacements": true,
                 "analysisType": 2
             }
