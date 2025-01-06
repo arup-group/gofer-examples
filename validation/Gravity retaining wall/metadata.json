@@ -2,6 +2,9 @@
 	"title": "Gravity retaining wall",
 	"subTitle": "Asessing stability",
 	"description": "In this case study we calculated the existing factor of safety of a gravity retaining wall, and then assessed the impact of adding a new structure.",
-	"id": "2b32ec30-3ec8-4036-9ebd-18b44b5fcca4",
-	"order": 1
+	"id": [
+		"4e11ca79-dd05-402f-9bc8-f3d88f6238d3",
+		"2b32ec30-3ec8-4036-9ebd-18b44b5fcca4"
+	],
+	"order": 8
 }
