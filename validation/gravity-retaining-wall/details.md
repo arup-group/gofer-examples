@@ -66,7 +66,7 @@ We assumed the following construction sequence:
 2.	Build gravity wall
 3.	Backfill behind the wall
 
-Apply 10kPa load behind the wall
+4. Apply 10kPa load behind the wall
 
 4.	Calculate existing FoS	
 <div class="end-examples"></div>
