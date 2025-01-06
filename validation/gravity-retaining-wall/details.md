@@ -17,7 +17,7 @@ The initial model simulated a gravity retaining wall and included graded backfil
 ![Model 1 with existing gravity wall](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/geometry_modelled_wall-with-graded-backfill.png)
 
 As you can see in the image above:
-> -	The mesh was refined locally to the wall in expected areas of high stress and strain gradient. We did this by adjusting the local element size at the appropriate model vertices to 0.1m. The remaining vertices were left at the automatic mesh size.
+- The mesh was refined locally to the wall in expected areas of high stress and strain gradient. We did this by adjusting the local element size at the appropriate model vertices to 0.1m. The remaining vertices were left at the automatic mesh size.
 
 - A 10kPa surface load as applied behind the retaining wall, extending to the back of the stem. Over the width of the L wall base and above the retaining wall, the load was linearly reduced in magnitude from 10kPa to 0kPa. 
 Groundwater is modelled at the underside of the wall.
