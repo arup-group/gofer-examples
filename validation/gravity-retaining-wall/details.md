@@ -20,7 +20,7 @@ As you can see in the image above:
 - The mesh was refined locally to the wall in expected areas of high stress and strain gradient. We did this by adjusting the local element size at the appropriate model vertices to 0.1m. The remaining vertices were left at the automatic mesh size.
 
 - A 10kPa surface load as applied behind the retaining wall, extending to the back of the stem. Over the width of the L wall base and above the retaining wall, the load was linearly reduced in magnitude from 10kPa to 0kPa. 
-Groundwater is modelled at the underside of the wall.
+-  Groundwater is modelled at the underside of the wall.
 - An interface was modelled along the underside of the L section wall, with a dummy plate.
 
 #### Model 2: Impact of new construction behind the wall
