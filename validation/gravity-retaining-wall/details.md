@@ -55,7 +55,7 @@ We included Interfaces along this structure. We opted to keep it simple in this 
 | Young’s modulus |	28 GPa |	28 GPa |
 | Poisson’s ratio |	0.2 |	0.2 |
 
-### Assumptions
+### Construction sequence
 
 We assumed the following construction sequence:
 
