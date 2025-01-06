@@ -77,7 +77,6 @@ We assumed the following construction sequence:
 1.	Initialisation
 2.	Build gravity wall
 3.	Backfill behind the wall
-
 Apply 10kPa load behind the wall
 
 4.	Build the new structure behind the wall
