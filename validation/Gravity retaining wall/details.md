@@ -91,6 +91,6 @@ We assumed the following construction sequence:
 
 We used Gofer to assess the existing stability of a gravity L section retaining wall. We then proceeded to assess the impact on that wall of a proposed construction behind it, both in terms of displacements and reduction in factor of safety. The results compare well to an equivalent analysis done using Plaxis 2D v2024.
 
-### Summary
+### Conclusion
 
 Gofer’s analysis delivered values consistent with similar conditions in Plaxis in the existing stability, FoS reduction and displacements. As you can see in the figures above, the computed solutions in Gofer delivered results that compare favourably with a similar model in Plaxis.
