@@ -2,6 +2,8 @@
 	"title": "Central St Giles, London",
 	"subTitle": "Flexible cantilever retaining wall validation",
 	"description": "A case study comparing Gofer and Oasys Frew, using design models from the Central St Giles development, London.",
-	"id": "564efb07-1aaa-4baf-a5f9-11b32b4fbb86",
+	"id": [
+		"564efb07-1aaa-4baf-a5f9-11b32b4fbb86"
+	],
 	"order": 1
 }
