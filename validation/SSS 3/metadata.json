@@ -2,8 +2,6 @@
     "title": "Steady state seepage: Part 3",
     "subTitle": " Dam with cut-off wall after Soil Mechanics, by Lambe and Whitman (1969)",
     "description": "We tested Gofer's steady state seepage (SSS) features by modelling a homogeneous, single layer medium, with isotropic materials for both the soil and the cut-off wall.",
-    "id": [
-        "435a14a8-50bb-4ae0-9686-c8c05a37a073"
-    ],
+    "id": "435a14a8-50bb-4ae0-9686-c8c05a37a073",
     "order": 6
 }
