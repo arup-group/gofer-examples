@@ -10,6 +10,7 @@ A summary of the geometry and key parameters is presented below.
 
 Gofer can be used to model and assess the stability of a gravity retaining wall. We modelled the existing gravity retaining wall to get the existing FoS (Model 1) and then used the second model to understand how it would be impacted by a new structure (in Model 2). The results can be visually compared. 
 
+
 #### Model 1: Initial conditions
 
 The initial model simulated a gravity retaining wall and included graded backfill in its geometry.
@@ -21,6 +22,7 @@ As you can see in the image above:
 - A 10kPa surface load as applied behind the retaining wall, extending to the back of the stem. Over the width of the L wall base and above the retaining wall, the load was linearly reduced in magnitude from 10kPa to 0kPa. 
 - Groundwater is modelled at the underside of the wall.
 - An interface was modelled along the underside of the L section wall, with a dummy plate.
+
 
 #### Model 2: Impact of new construction behind the wall
 
@@ -44,6 +46,7 @@ We included Interfaces along this structure. We opted to keep it simple in this 
 | Friction angle |	33º |	38º |	n/a |
 | Interface reduction factor |	0.67 |	0.67 |	n/a |
 
+
 #### Structural parameters
 
 | | Dummy structure beneath L section wall |	New structure behind wall |
@@ -57,37 +60,34 @@ We included Interfaces along this structure. We opted to keep it simple in this 
 
 We assumed the following construction sequence:
 
-<div class="begin-examples"></div>
-
 #### Existing conditions
 1.	Initialisation
 2.	Build gravity wall
 3.	Backfill behind the wall
-4. Apply 10kPa load behind the wall
+4.  Apply 10kPa load behind the wall
 5.	Calculate existing FoS	
-<div class="end-examples"></div>
 
-<div class="begin-examples"></div>
 
 #### New construction
 1.	Initialisation
 2.	Build gravity wall
 3.	Backfill behind the wall
-4. Apply 10kPa load behind the wall
+4.  Apply 10kPa load behind the wall
 5.	Build the new structure behind the wall
 6.	Apply the new 100kPa loading behind the wall
 7.	Calculate new FoS
 
-<div class="end-examples"></div>
 
 ### Output and comparison to Plaxis
 
 | | Gofer	| Plaxis |
 |---|---|---|
-| Existing gravity wall FoS | 1.54 <p>![Gofer results with existing gravity wall FoS](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Gofer_existing-gravity-wall-FoS.png) </p>| 1.55  <p>![Plaxis results with existing gravity wall FoS](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Plaxis_existing-gravity-wall-FoS.png)</p>|
+| Existing gravity wall FoS | 1.54| 1.55 |
+||![Gofer results with existing gravity wall FoS](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Gofer_existing-gravity-wall-FoS.png) | ![Plaxis results with existing gravity wall FoS](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Plaxis_existing-gravity-wall-FoS.png) |
 | Resultant movement vector of wall from new construction | 24 to 27mm | 25 to 33 mm |
 | Lateral sliding of wall base from new construction | 17mm | 21 mm |
-| New gravity wall FoS | 1.22 <p>![gofer-slope](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Gofer_new-gravity-wall-FoS.png) </p>| 1.20 <p>![gofer-slope](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Plaxis_new-gravity-wall-FoS.png) </p>|
+| New gravity wall FoS | 1.22 | 1.20 |
+| | ![gofer-slope](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Gofer_new-gravity-wall-FoS.png) | ![gofer-slope](https://b2c-templates-arup.s3-eu-west-1.amazonaws.com/gofer/validationImages/Plaxis_new-gravity-wall-FoS.png) |
 
 We used Gofer to assess the existing stability of a gravity L section retaining wall. We then proceeded to assess the impact on that wall of a proposed construction behind it, both in terms of displacements and reduction in factor of safety. The results compare well to an equivalent analysis done using Plaxis 2D v2024.
 
