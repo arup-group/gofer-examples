@@ -2,8 +2,6 @@
 	"title": "Steady state seepage: Part 4",
 	"subTitle": "Dewatering pit",
 	"description": "Model of steady state seepage feature to assess seepage flow with a dewatering pit excavation.",
-	"id": [
-		"1c966bb9-2c47-401d-b23d-0ea365594e13"
-	],
+	"id": "1c966bb9-2c47-401d-b23d-0ea365594e13",
 	"order": 7
 }
