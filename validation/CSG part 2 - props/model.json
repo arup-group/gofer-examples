@@ -1,114 +1,101 @@
 {
-    "nodeLinks": [],
     "id": "e96fe7fa-af57-4900-b865-3d109dd06c1d",
-    "lastModified": "2023-02-24T14:17:46.589448Z",
     "metadata": {
-        "jobNumber": "123456",
         "title": "Central St Giles - WithProp - CM_R1 - 24-02-2023",
         "description": "Cantilever wall",
+        "jobNumber": "123456",
+        "owner": "710fe8da-8cb3-41c1-807b-13e20e0a59d1",
         "modelCreatedDate": "2023-02-24T13:26:02.5774541Z",
-        "version": 3,
-        "owner": "710fe8da-8cb3-41c1-807b-13e20e0a59d1"
+        "version": 5
     },
-    "analysisTracking": [],
     "stages": [
         {
             "id": "7590f1d4-044d-4532-a213-d24f7c059e0d",
             "name": "Initial",
-            "stageAnalysisSettings": {
-                "parentStageId": "00000000-0000-0000-0000-000000000000",
-                "parentResultsKey": "",
-                "loadIncrements": 1,
-                "maxIterations": 10000,
-                "forceConvergenceTolerance": 0.000001,
-                "resetDisplacements": true,
-                "analysisType": 0,
-                "solverType": 0
-            },
             "stageSoilBlocks": [
                 {
-                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
                     "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed",
-                    "isActive": true
-                },
-                {
-                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
-                    "isActive": true
-                },
-                {
-                    "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
-                    "isActive": true
-                },
-                {
+                    "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
+                    "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
+                    "isActive": true,
+                    "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
+                    "isActive": true,
+                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
                     "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
-                    "isActive": true
+                    "isActive": true,
+                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
                 },
                 {
-                    "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
                     "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
-                    "isActive": true
-                },
-                {
+                    "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
+                    "usePreviousStagePorePressures": false
+                },
+                {
                     "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
-                    "isActive": true
-                },
-                {
+                    "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
+                    "isActive": true,
+                    "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
+                    "isActive": true,
                     "materialId": "b647dbaf-df1f-63ef-d314-0f409f438bd1",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
-                    "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
                     "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
-                    "isActive": true
-                },
-                {
+                    "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
+                    "isActive": true,
+                    "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
+                    "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -117,244 +104,240 @@
                     "isActive": false
                 }
             ],
-            "stageDisps": [],
-            "stageStructures": [
-                {
-                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
-                    "isActive": false
-                }
-            ],
-            "stageNodeLinks": [],
+            "stageMoments": [],
             "stageProps": [
                 {
                     "id": "bc08f085-bc6f-514c-c9a1-133790942c8c",
                     "isActive": false
                 }
             ],
-            "stageMoments": [],
+            "stageNodeLinks": [],
+            "stageDisps": [],
             "stageStructuralConnections": [],
-            "stageFlowControls": []
+            "stageStructures": [
+                {
+                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
+                    "isActive": false
+                }
+            ],
+            "stageFlowControls": [],
+            "stageAnalysisSettings": {
+                "parentStageId": "00000000-0000-0000-0000-000000000000",
+                "loadIncrements": 1,
+                "maxIterations": 10000,
+                "forceConvergenceTolerance": 0.000001,
+                "resetDisplacements": true,
+                "analysisType": 0
+            }
         },
         {
             "id": "9adf4756-8c3a-49d3-839c-0abb0c47dba1",
             "name": "Install Wall",
+            "stageSoilBlocks": [
+                {
+                    "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed",
+                    "isActive": true,
+                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
+                    "isActive": true,
+                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
+                    "isActive": true,
+                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
+                    "isActive": true,
+                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
+                    "isActive": true,
+                    "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
+                    "isActive": true,
+                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                }
+            ],
+            "stageLoads": [
+                {
+                    "id": "6133320d-155d-fa19-0f99-2e72740025c3",
+                    "isActive": true
+                }
+            ],
+            "stageMoments": [],
+            "stageProps": [
+                {
+                    "id": "bc08f085-bc6f-514c-c9a1-133790942c8c",
+                    "isActive": false
+                }
+            ],
+            "stageNodeLinks": [],
+            "stageDisps": [],
+            "stageStructuralConnections": [],
+            "stageStructures": [
+                {
+                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
+                    "isActive": true
+                }
+            ],
+            "stageFlowControls": [],
             "stageAnalysisSettings": {
                 "parentStageId": "7590f1d4-044d-4532-a213-d24f7c059e0d",
-                "parentResultsKey": "",
                 "loadIncrements": 1,
                 "maxIterations": 10000,
                 "forceConvergenceTolerance": 0.000001,
                 "resetDisplacements": true,
-                "analysisType": 0,
-                "solverType": 0
-            },
-            "stageSoilBlocks": [
-                {
-                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed",
-                    "isActive": true
-                },
-                {
-                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
-                    "isActive": true
-                },
-                {
-                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
-                    "isActive": true
-                },
-                {
-                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
-                    "isActive": true
-                },
-                {
-                    "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
-                    "isActive": true
-                },
-                {
-                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
-                    "isActive": true
-                }
-            ],
-            "stageLoads": [
-                {
-                    "id": "6133320d-155d-fa19-0f99-2e72740025c3",
-                    "isActive": true
-                }
-            ],
-            "stageDisps": [],
-            "stageStructures": [
-                {
-                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
-                    "isActive": true
-                }
-            ],
-            "stageNodeLinks": [],
-            "stageProps": [
-                {
-                    "id": "bc08f085-bc6f-514c-c9a1-133790942c8c",
-                    "isActive": false
-                }
-            ],
-            "stageMoments": [],
-            "stageStructuralConnections": [],
-            "stageFlowControls": []
+                "analysisType": 0
+            }
         },
         {
             "id": "7eca2314-bc37-4a3c-acd6-f2eb9c51eed5",
             "name": "Excavate MG",
-            "stageAnalysisSettings": {
-                "parentStageId": "9adf4756-8c3a-49d3-839c-0abb0c47dba1",
-                "parentResultsKey": "",
-                "loadIncrements": 1,
-                "maxIterations": 10000,
-                "forceConvergenceTolerance": 0.000001,
-                "resetDisplacements": false,
-                "analysisType": 0,
-                "solverType": 0
-            },
             "stageSoilBlocks": [
                 {
-                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
                     "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed",
-                    "isActive": false
-                },
-                {
-                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
-                    "isActive": true
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2,
-                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
-                    "isActive": true
-                },
-                {
+                    "isActive": false,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
+                    "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
-                    "isActive": true
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
                 },
                 {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
-                    "isActive": true
-                },
-                {
+                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2,
-                    "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
+                    "isActive": true,
+                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
+                    "isActive": true,
+                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
+                    "isActive": true,
                     "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2,
-                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
+                    "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2,
-                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -363,121 +346,119 @@
                     "isActive": true
                 }
             ],
-            "stageDisps": [],
-            "stageStructures": [
-                {
-                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
-                    "isActive": true
-                }
-            ],
-            "stageNodeLinks": [],
+            "stageMoments": [],
             "stageProps": [
                 {
                     "id": "bc08f085-bc6f-514c-c9a1-133790942c8c",
                     "isActive": true
                 }
             ],
-            "stageMoments": [],
+            "stageNodeLinks": [],
+            "stageDisps": [],
             "stageStructuralConnections": [],
-            "stageFlowControls": []
+            "stageStructures": [
+                {
+                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
+                    "isActive": true
+                }
+            ],
+            "stageFlowControls": [],
+            "stageAnalysisSettings": {
+                "parentStageId": "9adf4756-8c3a-49d3-839c-0abb0c47dba1",
+                "loadIncrements": 1,
+                "maxIterations": 10000,
+                "forceConvergenceTolerance": 0.000001,
+                "resetDisplacements": false,
+                "analysisType": 0
+            }
         },
         {
             "id": "c3ad35a3-303c-4dd3-a318-57550c21016f",
             "name": "Excavate RTD",
-            "stageAnalysisSettings": {
-                "parentStageId": "7eca2314-bc37-4a3c-acd6-f2eb9c51eed5",
-                "parentResultsKey": "",
-                "loadIncrements": 1,
-                "maxIterations": 10000,
-                "forceConvergenceTolerance": 0.000001,
-                "resetDisplacements": false,
-                "analysisType": 0,
-                "solverType": 0
-            },
             "stageSoilBlocks": [
                 {
-                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
                     "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed",
-                    "isActive": false
-                },
-                {
-                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
-                    "isActive": false
-                },
-                {
-                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
-                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
-                    "isActive": true
-                },
-                {
+                    "isActive": false,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
+                    "isActive": false,
+                    "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
+                    "isActive": true,
+                    "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
+                    "isActive": true,
+                    "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
+                    "waterProfileId": "00000000-0000-0000-0000-000000000000",
+                    "usePreviousStagePorePressures": false
+                },
+                {
+                    "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
+                    "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "adf3717a-6630-92aa-7727-2cc9eb5e85cb",
-                    "waterProfileType": 2,
-                    "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
+                    "isActive": true,
                     "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2,
-                    "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
+                    "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "adf3717a-6630-92aa-7727-2cc9eb5e85cb",
-                    "waterProfileType": 2,
-                    "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
-                    "isActive": true
+                    "usePreviousStagePorePressures": false
                 },
                 {
+                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
+                    "isActive": false,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0,
-                    "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
-                    "isActive": false
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -486,169 +467,31 @@
                     "isActive": true
                 }
             ],
-            "stageDisps": [],
-            "stageStructures": [
-                {
-                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
-                    "isActive": true
-                }
-            ],
-            "stageNodeLinks": [],
+            "stageMoments": [],
             "stageProps": [
                 {
                     "id": "bc08f085-bc6f-514c-c9a1-133790942c8c",
                     "isActive": true
                 }
             ],
-            "stageMoments": [],
+            "stageNodeLinks": [],
+            "stageDisps": [],
             "stageStructuralConnections": [],
-            "stageFlowControls": []
-        }
-    ],
-    "vertices": [
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": -21,
-            "id": "ba1655b5-06f2-4d7d-9503-11aee990485c"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 24,
-            "id": "48099cc0-6587-f46b-d487-c26cc7ced5f4"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": 20,
-            "id": "4d6a44c3-ed55-3604-aa63-5e6e055ddd12"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 20,
-            "id": "248eb7d5-caf9-0913-876d-da47fa1225bc"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": 17,
-            "id": "49d566de-b930-fcf1-bd5a-8c5b2295b1f7"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 17,
-            "id": "37fcf791-cd8c-d734-b7d8-00607c2cb2f7"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 3.5,
-            "id": "040ce3ec-328d-76d2-f35c-da36e0080946"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": 3.5,
-            "id": "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": -3.5,
-            "id": "25b0bbf7-141d-eecb-0f2f-90541861e1e6"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": -3.5,
-            "id": "afdd4a06-2bbd-2847-22c2-7505828a0fd5"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 3.5,
-            "id": "2ec9bc41-1d88-b43e-bee1-702711aab387"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 20,
-            "id": "88e4d9bb-70d3-44d2-dcc3-c423d882158c"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 17,
-            "id": "462184bb-244a-c728-78aa-ea096c8c07e4"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": 13,
-            "id": "1e8809b8-6dc2-1dc8-99d5-423b325b5421"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 13,
-            "id": "47abe340-8d2e-977b-4385-8ec349bd01a7"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 13,
-            "id": "23be84ec-1032-16a8-4aec-7693cbd9e984"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 24,
-            "id": "69c18f5a-a728-71d9-5d8b-9e3db15617be"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": 24,
-            "id": "72890f4f-7b02-bc58-066d-91b681cc11a9"
-        },
-        {
-            "meshSize": 0,
-            "x": -10,
-            "y": -21,
-            "id": "7d3abe7a-4325-5b1f-1f93-1cef0a1e23be"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 16,
-            "id": "5150252d-d76d-b637-0ef2-572e4264aa46"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 16,
-            "id": "90fc7eeb-0f93-abf6-4327-934c542116ec"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 19,
-            "id": "ce9239fd-1960-2136-2832-1d4fdb45c1b7"
-        },
-        {
-            "meshSize": 0,
-            "x": 35,
-            "y": 19,
-            "id": "eeeaa3ce-ad99-f67d-705d-8ae1243f14b2"
-        },
-        {
-            "meshSize": 0,
-            "x": 0,
-            "y": 22.61,
-            "id": "4922c066-7086-13fe-5af0-84e475c923c9"
+            "stageStructures": [
+                {
+                    "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
+                    "isActive": true
+                }
+            ],
+            "stageFlowControls": [],
+            "stageAnalysisSettings": {
+                "parentStageId": "7eca2314-bc37-4a3c-acd6-f2eb9c51eed5",
+                "loadIncrements": 1,
+                "maxIterations": 10000,
+                "forceConvergenceTolerance": 0.000001,
+                "resetDisplacements": false,
+                "analysisType": 0
+            }
         }
     ],
     "materials": [
@@ -659,33 +502,27 @@
                 "b": 119,
                 "a": 255
             },
+            "id": "17457c17-50b4-b053-ef3d-f62b760d6f77",
+            "name": "MG",
             "analysisMaterial": {
-                "phi": 25,
-                "cohesion": 0,
-                "cohesionGradient": null,
-                "dilation": 0,
                 "materialType": 1,
-                "colour": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0
-                },
                 "drainageCondition": 1,
                 "weightDensity": 18,
                 "initialK0": 0.577,
+                "youngsModulusE1": 75000,
+                "poissonsRatioV13": 0.3,
+                "cohesion": 0,
+                "phi": 25,
+                "dilation": 0,
                 "horizontalPermeability": 0.000001,
                 "verticalPermeability": 0.000001,
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "youngsModulusE1": 75000,
-                "youngsModulusGradient": null,
-                "poissonsRatioV13": 0.3,
-                "variableParametersReferenceLevel": null
-            },
-            "name": "MG",
-            "id": "17457c17-50b4-b053-ef3d-f62b760d6f77"
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
+            }
         },
         {
             "colour": {
@@ -694,33 +531,27 @@
                 "b": 109,
                 "a": 255
             },
+            "id": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
+            "name": "RTD",
             "analysisMaterial": {
-                "phi": 36,
-                "cohesion": 0,
-                "cohesionGradient": null,
-                "dilation": 0,
                 "materialType": 1,
-                "colour": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0
-                },
                 "drainageCondition": 1,
                 "weightDensity": 20,
                 "initialK0": 0.412,
+                "youngsModulusE1": 50000,
+                "poissonsRatioV13": 0.3,
+                "cohesion": 0,
+                "phi": 36,
+                "dilation": 0,
                 "horizontalPermeability": 0.000001,
                 "verticalPermeability": 0.000001,
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "youngsModulusE1": 50000,
-                "youngsModulusGradient": null,
-                "poissonsRatioV13": 0.3,
-                "variableParametersReferenceLevel": null
-            },
-            "name": "RTD",
-            "id": "73d1874f-bab5-efd2-6a9a-70f6e601778c"
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
+            }
         },
         {
             "colour": {
@@ -729,33 +560,30 @@
                 "b": 171,
                 "a": 255
             },
+            "id": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
+            "name": "LC UNdrained",
             "analysisMaterial": {
-                "phi": 0,
-                "cohesion": 90,
-                "cohesionGradient": 7.1,
-                "dilation": 0,
                 "materialType": 1,
-                "colour": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0
-                },
                 "drainageCondition": 3,
                 "weightDensity": 20,
                 "initialK0": 1,
+                "youngsModulusE1": 67500,
+                "youngsModulusGradient": 5325,
+                "variableParametersReferenceLevel": 17,
+                "poissonsRatioV13": 0.495,
+                "cohesion": 90,
+                "cohesionGradient": 7.1,
+                "phi": 0,
+                "dilation": 0,
                 "horizontalPermeability": 0.000001,
                 "verticalPermeability": 0.000001,
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "youngsModulusE1": 67500,
-                "youngsModulusGradient": 5325,
-                "poissonsRatioV13": 0.495,
-                "variableParametersReferenceLevel": 17
-            },
-            "name": "LC UNdrained",
-            "id": "3b3fed2b-6593-7eef-04b5-768ee14ceed2"
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
+            }
         },
         {
             "colour": {
@@ -764,33 +592,29 @@
                 "b": 221,
                 "a": 255
             },
+            "id": "dd94e2b2-176f-a623-41a6-81c18e469836",
+            "name": "LC Drained",
             "analysisMaterial": {
-                "phi": 25,
-                "cohesion": 0,
-                "cohesionGradient": null,
-                "dilation": 0,
                 "materialType": 1,
-                "colour": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0
-                },
                 "drainageCondition": 1,
                 "weightDensity": 20,
                 "initialK0": 1,
+                "youngsModulusE1": 56250,
+                "youngsModulusGradient": 4438,
+                "variableParametersReferenceLevel": 17,
+                "poissonsRatioV13": 0.2,
+                "cohesion": 0,
+                "phi": 25,
+                "dilation": 0,
                 "horizontalPermeability": 0.000001,
                 "verticalPermeability": 0.000001,
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "youngsModulusE1": 56250,
-                "youngsModulusGradient": 4438,
-                "poissonsRatioV13": 0.2,
-                "variableParametersReferenceLevel": 17
-            },
-            "name": "LC Drained",
-            "id": "dd94e2b2-176f-a623-41a6-81c18e469836"
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
+            }
         },
         {
             "colour": {
@@ -799,33 +623,30 @@
                 "b": 72,
                 "a": 255
             },
+            "id": "2f728729-c68c-c7bb-b756-00c71889c86e",
+            "name": "LMG UNdrained",
             "analysisMaterial": {
-                "phi": 0,
-                "cohesion": 258,
-                "cohesionGradient": 8,
-                "dilation": 0,
                 "materialType": 1,
-                "colour": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0
-                },
                 "drainageCondition": 3,
                 "weightDensity": 20,
                 "initialK0": 1,
+                "youngsModulusE1": 128800,
+                "youngsModulusGradient": 3200,
+                "variableParametersReferenceLevel": -3.5,
+                "poissonsRatioV13": 0.495,
+                "cohesion": 258,
+                "cohesionGradient": 8,
+                "phi": 0,
+                "dilation": 0,
                 "horizontalPermeability": 0.000001,
                 "verticalPermeability": 0.000001,
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "youngsModulusE1": 128800,
-                "youngsModulusGradient": 3200,
-                "poissonsRatioV13": 0.495,
-                "variableParametersReferenceLevel": -3.5
-            },
-            "name": "LMG UNdrained",
-            "id": "2f728729-c68c-c7bb-b756-00c71889c86e"
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
+            }
         },
         {
             "colour": {
@@ -834,360 +655,40 @@
                 "b": 39,
                 "a": 255
             },
+            "id": "b647dbaf-df1f-63ef-d314-0f409f438bd1",
+            "name": "LMG Drained",
             "analysisMaterial": {
-                "phi": 26,
-                "cohesion": 0,
-                "cohesionGradient": null,
-                "dilation": 0,
                 "materialType": 1,
-                "colour": {
-                    "r": 0,
-                    "g": 0,
-                    "b": 0,
-                    "a": 0
-                },
                 "drainageCondition": 1,
                 "weightDensity": 20,
                 "initialK0": 1,
+                "youngsModulusE1": 77400,
+                "youngsModulusGradient": 2400,
+                "variableParametersReferenceLevel": -3.5,
+                "poissonsRatioV13": 0.2,
+                "cohesion": 0,
+                "phi": 26,
+                "dilation": 0,
                 "horizontalPermeability": 0.000001,
                 "verticalPermeability": 0.000001,
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "youngsModulusE1": 77400,
-                "youngsModulusGradient": 2400,
-                "poissonsRatioV13": 0.2,
-                "variableParametersReferenceLevel": -3.5
-            },
-            "name": "LMG Drained",
-            "id": "b647dbaf-df1f-63ef-d314-0f409f438bd1"
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
+            }
         }
     ],
-    "soilBlocks": [
+    "props": [
         {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
-                                    "248eb7d5-caf9-0913-876d-da47fa1225bc",
-                                    "48099cc0-6587-f46b-d487-c26cc7ced5f4",
-                                    "69c18f5a-a728-71d9-5d8b-9e3db15617be",
-                                    "4922c066-7086-13fe-5af0-84e475c923c9",
-                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 1",
-            "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
-                                    "eeeaa3ce-ad99-f67d-705d-8ae1243f14b2",
-                                    "248eb7d5-caf9-0913-876d-da47fa1225bc",
-                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
-                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 2",
-            "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "5150252d-d76d-b637-0ef2-572e4264aa46",
-                                    "90fc7eeb-0f93-abf6-4327-934c542116ec",
-                                    "37fcf791-cd8c-d734-b7d8-00607c2cb2f7",
-                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
-                                    "5150252d-d76d-b637-0ef2-572e4264aa46"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 3",
-            "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "4d6a44c3-ed55-3604-aa63-5e6e055ddd12",
-                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
-                                    "4922c066-7086-13fe-5af0-84e475c923c9",
-                                    "69c18f5a-a728-71d9-5d8b-9e3db15617be",
-                                    "72890f4f-7b02-bc58-066d-91b681cc11a9",
-                                    "4d6a44c3-ed55-3604-aa63-5e6e055ddd12"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 6",
-            "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "49d566de-b930-fcf1-bd5a-8c5b2295b1f7",
-                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
-                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
-                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
-                                    "4d6a44c3-ed55-3604-aa63-5e6e055ddd12",
-                                    "49d566de-b930-fcf1-bd5a-8c5b2295b1f7"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 7",
-            "id": "48b5205f-aec2-876f-a592-1c9c1b76c086"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "1e8809b8-6dc2-1dc8-99d5-423b325b5421",
-                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
-                                    "5150252d-d76d-b637-0ef2-572e4264aa46",
-                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
-                                    "49d566de-b930-fcf1-bd5a-8c5b2295b1f7",
-                                    "1e8809b8-6dc2-1dc8-99d5-423b325b5421"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 8",
-            "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "2ec9bc41-1d88-b43e-bee1-702711aab387",
-                                    "040ce3ec-328d-76d2-f35c-da36e0080946",
-                                    "47abe340-8d2e-977b-4385-8ec349bd01a7",
-                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
-                                    "2ec9bc41-1d88-b43e-bee1-702711aab387"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 9",
-            "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d",
-                                    "2ec9bc41-1d88-b43e-bee1-702711aab387",
-                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
-                                    "1e8809b8-6dc2-1dc8-99d5-423b325b5421",
-                                    "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 10",
-            "id": "36e9c2d7-a073-bbae-5982-b658c0490a57"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "7d3abe7a-4325-5b1f-1f93-1cef0a1e23be",
-                                    "ba1655b5-06f2-4d7d-9503-11aee990485c",
-                                    "afdd4a06-2bbd-2847-22c2-7505828a0fd5",
-                                    "25b0bbf7-141d-eecb-0f2f-90541861e1e6",
-                                    "7d3abe7a-4325-5b1f-1f93-1cef0a1e23be"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 13",
-            "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "25b0bbf7-141d-eecb-0f2f-90541861e1e6",
-                                    "afdd4a06-2bbd-2847-22c2-7505828a0fd5",
-                                    "040ce3ec-328d-76d2-f35c-da36e0080946",
-                                    "2ec9bc41-1d88-b43e-bee1-702711aab387",
-                                    "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d",
-                                    "25b0bbf7-141d-eecb-0f2f-90541861e1e6"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 13",
-            "id": "95e4d90b-0e61-9878-703b-9975662dff6b"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
-                                    "47abe340-8d2e-977b-4385-8ec349bd01a7",
-                                    "90fc7eeb-0f93-abf6-4327-934c542116ec",
-                                    "5150252d-d76d-b637-0ef2-572e4264aa46",
-                                    "23be84ec-1032-16a8-4aec-7693cbd9e984"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 11",
-            "id": "0d199daf-3323-e656-ef90-a47d56ae2801"
-        },
-        {
-            "geometries": [
-                {
-                    "coordinates": null,
-                    "segments": [
-                        [
-                            {
-                                "type": 0,
-                                "vertices": [
-                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
-                                    "37fcf791-cd8c-d734-b7d8-00607c2cb2f7",
-                                    "eeeaa3ce-ad99-f67d-705d-8ae1243f14b2",
-                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
-                                    "462184bb-244a-c728-78aa-ea096c8c07e4"
-                                ]
-                            }
-                        ]
-                    ]
-                }
-            ],
-            "materialId": "00000000-0000-0000-0000-000000000000",
-            "waterProfileId": "00000000-0000-0000-0000-000000000000",
-            "name": "Soil block 12",
-            "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec"
-        }
-    ],
-    "restraints": [],
-    "displacements": [],
-    "loads": [
-        {
-            "nodes": [
-                "72890f4f-7b02-bc58-066d-91b681cc11a9",
-                "69c18f5a-a728-71d9-5d8b-9e3db15617be"
-            ],
-            "value1": [
-                0,
-                -14.4
-            ],
-            "value2": [
-                0,
-                -14.4
-            ],
-            "name": "Loading",
-            "id": "6133320d-155d-fa19-0f99-2e72740025c3"
+            "id": "bc08f085-bc6f-514c-c9a1-133790942c8c",
+            "name": "Prop 1",
+            "node": "4922c066-7086-13fe-5af0-84e475c923c9",
+            "length": 3,
+            "angle": 0,
+            "spacing": 1,
+            "ea": 6000000
         }
     ],
     "waterProfiles": [
@@ -1224,7 +725,12 @@
     ],
     "structures": [
         {
-            "type": 0,
+            "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
+            "name": "RW ST",
+            "density": 23.53596,
+            "thickness": 1.03,
+            "youngsModulusE": 40000,
+            "momentOfInertiaI": 0,
             "nodes": [
                 "69c18f5a-a728-71d9-5d8b-9e3db15617be",
                 "4922c066-7086-13fe-5af0-84e475c923c9",
@@ -1235,29 +741,452 @@
                 "23be84ec-1032-16a8-4aec-7693cbd9e984",
                 "2ec9bc41-1d88-b43e-bee1-702711aab387"
             ],
-            "density": 2400,
-            "thickness": 1.03,
-            "youngsModulusE": 40000,
-            "poissonsRatio": 0.2,
-            "momentOfInertiaI": 0,
-            "name": "RW ST",
-            "id": "e5569a01-75b8-3e28-644a-480b3a6d030a"
+            "type": 0,
+            "poissonsRatio": 0.2
         }
     ],
-    "structuralConnections": [],
-    "props": [
+    "displacements": [],
+    "loads": [
         {
-            "angle": 0,
-            "length": 3,
-            "spacing": 1,
-            "ea": 6000000,
-            "node": "4922c066-7086-13fe-5af0-84e475c923c9",
-            "name": "Prop 1",
-            "id": "bc08f085-bc6f-514c-c9a1-133790942c8c"
+            "id": "6133320d-155d-fa19-0f99-2e72740025c3",
+            "name": "Loading",
+            "loadType": 1,
+            "nodes": [
+                "72890f4f-7b02-bc58-066d-91b681cc11a9",
+                "69c18f5a-a728-71d9-5d8b-9e3db15617be"
+            ],
+            "value1": [
+                0,
+                -14.4
+            ],
+            "value2": [
+                0,
+                -14.4
+            ]
         }
     ],
     "moments": [],
+    "structuralConnections": [],
+    "vertices": [
+        {
+            "id": "ba1655b5-06f2-4d7d-9503-11aee990485c",
+            "x": 35,
+            "y": -21,
+            "meshSize": 0
+        },
+        {
+            "id": "48099cc0-6587-f46b-d487-c26cc7ced5f4",
+            "x": 35,
+            "y": 24,
+            "meshSize": 0
+        },
+        {
+            "id": "4d6a44c3-ed55-3604-aa63-5e6e055ddd12",
+            "x": -10,
+            "y": 20,
+            "meshSize": 0
+        },
+        {
+            "id": "248eb7d5-caf9-0913-876d-da47fa1225bc",
+            "x": 35,
+            "y": 20,
+            "meshSize": 0
+        },
+        {
+            "id": "49d566de-b930-fcf1-bd5a-8c5b2295b1f7",
+            "x": -10,
+            "y": 17,
+            "meshSize": 0
+        },
+        {
+            "id": "37fcf791-cd8c-d734-b7d8-00607c2cb2f7",
+            "x": 35,
+            "y": 17,
+            "meshSize": 0
+        },
+        {
+            "id": "040ce3ec-328d-76d2-f35c-da36e0080946",
+            "x": 35,
+            "y": 3.5,
+            "meshSize": 0
+        },
+        {
+            "id": "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d",
+            "x": -10,
+            "y": 3.5,
+            "meshSize": 0
+        },
+        {
+            "id": "25b0bbf7-141d-eecb-0f2f-90541861e1e6",
+            "x": -10,
+            "y": -3.5,
+            "meshSize": 0
+        },
+        {
+            "id": "afdd4a06-2bbd-2847-22c2-7505828a0fd5",
+            "x": 35,
+            "y": -3.5,
+            "meshSize": 0
+        },
+        {
+            "id": "2ec9bc41-1d88-b43e-bee1-702711aab387",
+            "x": 0,
+            "y": 3.5,
+            "meshSize": 0
+        },
+        {
+            "id": "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
+            "x": 0,
+            "y": 20,
+            "meshSize": 0
+        },
+        {
+            "id": "462184bb-244a-c728-78aa-ea096c8c07e4",
+            "x": 0,
+            "y": 17,
+            "meshSize": 0
+        },
+        {
+            "id": "1e8809b8-6dc2-1dc8-99d5-423b325b5421",
+            "x": -10,
+            "y": 13,
+            "meshSize": 0
+        },
+        {
+            "id": "47abe340-8d2e-977b-4385-8ec349bd01a7",
+            "x": 35,
+            "y": 13,
+            "meshSize": 0
+        },
+        {
+            "id": "23be84ec-1032-16a8-4aec-7693cbd9e984",
+            "x": 0,
+            "y": 13,
+            "meshSize": 0
+        },
+        {
+            "id": "69c18f5a-a728-71d9-5d8b-9e3db15617be",
+            "x": 0,
+            "y": 24,
+            "meshSize": 0
+        },
+        {
+            "id": "72890f4f-7b02-bc58-066d-91b681cc11a9",
+            "x": -10,
+            "y": 24,
+            "meshSize": 0
+        },
+        {
+            "id": "7d3abe7a-4325-5b1f-1f93-1cef0a1e23be",
+            "x": -10,
+            "y": -21,
+            "meshSize": 0
+        },
+        {
+            "id": "5150252d-d76d-b637-0ef2-572e4264aa46",
+            "x": 0,
+            "y": 16,
+            "meshSize": 0
+        },
+        {
+            "id": "90fc7eeb-0f93-abf6-4327-934c542116ec",
+            "x": 35,
+            "y": 16,
+            "meshSize": 0
+        },
+        {
+            "id": "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
+            "x": 0,
+            "y": 19,
+            "meshSize": 0
+        },
+        {
+            "id": "eeeaa3ce-ad99-f67d-705d-8ae1243f14b2",
+            "x": 35,
+            "y": 19,
+            "meshSize": 0
+        },
+        {
+            "id": "4922c066-7086-13fe-5af0-84e475c923c9",
+            "x": 0,
+            "y": 22.61,
+            "meshSize": 0
+        }
+    ],
+    "soilBlocks": [
+        {
+            "id": "79c3486f-45c5-af66-32b2-097f6b3d61ed",
+            "name": "Soil block 1",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
+                                    "248eb7d5-caf9-0913-876d-da47fa1225bc",
+                                    "48099cc0-6587-f46b-d487-c26cc7ced5f4",
+                                    "69c18f5a-a728-71d9-5d8b-9e3db15617be",
+                                    "4922c066-7086-13fe-5af0-84e475c923c9",
+                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
+            "name": "Soil block 2",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
+                                    "eeeaa3ce-ad99-f67d-705d-8ae1243f14b2",
+                                    "248eb7d5-caf9-0913-876d-da47fa1225bc",
+                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
+                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
+            "name": "Soil block 3",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "5150252d-d76d-b637-0ef2-572e4264aa46",
+                                    "90fc7eeb-0f93-abf6-4327-934c542116ec",
+                                    "37fcf791-cd8c-d734-b7d8-00607c2cb2f7",
+                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
+                                    "5150252d-d76d-b637-0ef2-572e4264aa46"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
+            "name": "Soil block 6",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "4d6a44c3-ed55-3604-aa63-5e6e055ddd12",
+                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
+                                    "4922c066-7086-13fe-5af0-84e475c923c9",
+                                    "69c18f5a-a728-71d9-5d8b-9e3db15617be",
+                                    "72890f4f-7b02-bc58-066d-91b681cc11a9",
+                                    "4d6a44c3-ed55-3604-aa63-5e6e055ddd12"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
+            "name": "Soil block 7",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "49d566de-b930-fcf1-bd5a-8c5b2295b1f7",
+                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
+                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
+                                    "88e4d9bb-70d3-44d2-dcc3-c423d882158c",
+                                    "4d6a44c3-ed55-3604-aa63-5e6e055ddd12",
+                                    "49d566de-b930-fcf1-bd5a-8c5b2295b1f7"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
+            "name": "Soil block 8",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "1e8809b8-6dc2-1dc8-99d5-423b325b5421",
+                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
+                                    "5150252d-d76d-b637-0ef2-572e4264aa46",
+                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
+                                    "49d566de-b930-fcf1-bd5a-8c5b2295b1f7",
+                                    "1e8809b8-6dc2-1dc8-99d5-423b325b5421"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
+            "name": "Soil block 9",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "2ec9bc41-1d88-b43e-bee1-702711aab387",
+                                    "040ce3ec-328d-76d2-f35c-da36e0080946",
+                                    "47abe340-8d2e-977b-4385-8ec349bd01a7",
+                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
+                                    "2ec9bc41-1d88-b43e-bee1-702711aab387"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
+            "name": "Soil block 10",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d",
+                                    "2ec9bc41-1d88-b43e-bee1-702711aab387",
+                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
+                                    "1e8809b8-6dc2-1dc8-99d5-423b325b5421",
+                                    "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
+            "name": "Soil block 13",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "7d3abe7a-4325-5b1f-1f93-1cef0a1e23be",
+                                    "ba1655b5-06f2-4d7d-9503-11aee990485c",
+                                    "afdd4a06-2bbd-2847-22c2-7505828a0fd5",
+                                    "25b0bbf7-141d-eecb-0f2f-90541861e1e6",
+                                    "7d3abe7a-4325-5b1f-1f93-1cef0a1e23be"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
+            "name": "Soil block 13",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "25b0bbf7-141d-eecb-0f2f-90541861e1e6",
+                                    "afdd4a06-2bbd-2847-22c2-7505828a0fd5",
+                                    "040ce3ec-328d-76d2-f35c-da36e0080946",
+                                    "2ec9bc41-1d88-b43e-bee1-702711aab387",
+                                    "91a3fa56-b7a7-ffb4-70f3-046c81d36a9d",
+                                    "25b0bbf7-141d-eecb-0f2f-90541861e1e6"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
+            "name": "Soil block 11",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "23be84ec-1032-16a8-4aec-7693cbd9e984",
+                                    "47abe340-8d2e-977b-4385-8ec349bd01a7",
+                                    "90fc7eeb-0f93-abf6-4327-934c542116ec",
+                                    "5150252d-d76d-b637-0ef2-572e4264aa46",
+                                    "23be84ec-1032-16a8-4aec-7693cbd9e984"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
+            "name": "Soil block 12",
+            "geometries": [
+                {
+                    "segments": [
+                        [
+                            {
+                                "type": 0,
+                                "vertices": [
+                                    "462184bb-244a-c728-78aa-ea096c8c07e4",
+                                    "37fcf791-cd8c-d734-b7d8-00607c2cb2f7",
+                                    "eeeaa3ce-ad99-f67d-705d-8ae1243f14b2",
+                                    "ce9239fd-1960-2136-2832-1d4fdb45c1b7",
+                                    "462184bb-244a-c728-78aa-ea096c8c07e4"
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ],
     "flowControls": [],
+    "nodeLinks": [],
+    "overlays": [],
     "crossSections": [],
-    "overlays": []
+    "samplePoints": []
 }
