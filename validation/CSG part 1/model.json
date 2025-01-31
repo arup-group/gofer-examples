@@ -5,7 +5,8 @@
         "description": "Cantilever wall",
         "jobNumber": "Gofer Example - Central St Giles - London",
         "owner": "710fe8da-8cb3-41c1-807b-13e20e0a59d1",
-        "modelCreatedDate": "2023-05-10T15:10:15.7215711Z"
+        "modelCreatedDate": "2023-05-10T15:10:15.7215711Z",
+        "version": 5
     },
     "stages": [
         {
@@ -17,84 +18,84 @@
                     "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
                     "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
                     "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
                     "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
                     "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
                     "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
                     "isActive": true,
                     "materialId": "b647dbaf-df1f-63ef-d314-0f409f438bd1",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
                     "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
                     "isActive": true,
                     "materialId": "dd94e2b2-176f-a623-41a6-81c18e469836",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -133,84 +134,84 @@
                     "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
                     "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
                     "isActive": true,
                     "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -249,84 +250,84 @@
                     "isActive": false,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
                     "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
                     "isActive": true,
                     "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "e2d867b2-eb09-374c-d24a-713736b39b4b",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -365,84 +366,84 @@
                     "isActive": false,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "12e82ec0-773f-acd5-6c54-74ed537f9ac9",
                     "isActive": false,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8e9d24c3-e85c-70dc-c6b1-0e352d18f141",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "1fd36e1a-d7e8-93b8-abd5-0f386e6205ca",
                     "isActive": true,
                     "materialId": "17457c17-50b4-b053-ef3d-f62b760d6f77",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "48b5205f-aec2-876f-a592-1c9c1b76c086",
                     "isActive": true,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "bd8a0a46-6271-57a2-6634-a38e839b2eef",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "8c2ada1c-571f-a04f-9e53-16c5186e7b0b",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "adf3717a-6630-92aa-7727-2cc9eb5e85cb",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "36e9c2d7-a073-bbae-5982-b658c0490a57",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "5af7dc3a-8c13-46b8-c8e3-c559efc106a0",
                     "isActive": true,
                     "materialId": "2f728729-c68c-c7bb-b756-00c71889c86e",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "95e4d90b-0e61-9878-703b-9975662dff6b",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "aed3d869-5d74-8f31-1ea4-aed5d6b97ca9",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "0d199daf-3323-e656-ef90-a47d56ae2801",
                     "isActive": true,
                     "materialId": "3b3fed2b-6593-7eef-04b5-768ee14ceed2",
                     "waterProfileId": "adf3717a-6630-92aa-7727-2cc9eb5e85cb",
-                    "waterProfileType": 2
+                    "usePreviousStagePorePressures": false
                 },
                 {
                     "id": "78763af9-a86c-ce01-5b8f-edded6a8c0ec",
                     "isActive": false,
                     "materialId": "73d1874f-bab5-efd2-6a9a-70f6e601778c",
                     "waterProfileId": "00000000-0000-0000-0000-000000000000",
-                    "waterProfileType": 0
+                    "usePreviousStagePorePressures": false
                 }
             ],
             "stageLoads": [
@@ -498,7 +499,9 @@
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "hasInterface": false
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
             }
         },
         {
@@ -525,7 +528,9 @@
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "hasInterface": false
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
             }
         },
         {
@@ -555,7 +560,9 @@
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "hasInterface": false
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
             }
         },
         {
@@ -584,7 +591,9 @@
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "hasInterface": false
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
             }
         },
         {
@@ -614,7 +623,9 @@
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "hasInterface": false
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
             }
         },
         {
@@ -643,7 +654,9 @@
                 "ignoreSuction": true,
                 "limitSuction": false,
                 "suctionCut": 0,
-                "hasInterface": false
+                "hasInterface": false,
+                "tensionLimit": null,
+                "tensionCutOff": false
             }
         }
     ],
@@ -684,7 +697,7 @@
         {
             "id": "e5569a01-75b8-3e28-644a-480b3a6d030a",
             "name": "RW ST",
-            "density": 2400,
+            "density": 23.53596,
             "thickness": 1.03,
             "youngsModulusE": 40000,
             "momentOfInertiaI": 0,
@@ -1135,5 +1148,6 @@
     "flowControls": [],
     "nodeLinks": [],
     "overlays": [],
-    "crossSections": []
+    "crossSections": [],
+    "samplePoints": []
 }
